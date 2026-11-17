@@ -67,7 +67,7 @@ AI是否能模仿特定的人？|Can AI imitate a specific person?
 普通人|General participant
 有专业背景-提供基础信息|Professional background - basic information
 有专业背景-提供全面信息|Professional background - full information
-对所选学者及其写作的熟悉程度|Familiarity with selected scholars
+对所选学者及其写作的熟悉程度（选填）|Familiarity with selected scholars (optional)
 职业阶段|Career stage
 研究或工作方向|Research or professional focus
 本轮标注总数|Total questions this round
@@ -157,11 +157,11 @@ AI是否能模仿特定的人？|Can AI imitate a specific person?
 其他研究参与者|Other research participant
 以专业方向记录研究视角。|Your discipline helps us understand your perspective.
 贡献者编号将在开始标注时自动生成。|A contributor ID is generated when you start.
-专业方向 · 一级学科|Discipline · Primary field
+专业方向 · 一级学科（选填）|Discipline · Primary field (optional)
 请选择一级学科|Select a primary field
 · 2022目录|· 2022 catalogue
 1997目录保留方向|Legacy fields retained from 1997
-专业方向 · 二级学科|Discipline · Secondary field
+专业方向 · 二级学科（选填）|Discipline · Secondary field (optional)
 请选择二级学科|Select a secondary field
 本一级方向（无统一二级选项 / 未分设）|Primary field only (no nationally listed subfields)
 学科目录说明|About the discipline catalogue

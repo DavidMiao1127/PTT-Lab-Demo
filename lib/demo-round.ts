@@ -86,9 +86,11 @@ export async function api(action: string, data: any = {}) {
   }
 
   if (action === 'start') {
-    const { profile, count } = data;
-    if (!profile?.consent || !['general', 'basic', 'full'].includes(profile.role)) throw new Error('请完成标注设置并同意数据记录说明');
+    const { profile: submitted, count } = data;
+    if (!submitted?.consent || !['general', 'basic', 'full'].includes(submitted.role)) throw new Error('请完成标注设置并同意数据记录说明');
+    const profile = { ...submitted, primary: submitted.primary ?? '', secondary: submitted.secondary ?? '', familiarity: submitted.familiarity ?? 0 };
     if (profile.role !== 'general' && !validSubject(profile.primary, profile.secondary)) throw new Error('请选择专业方向');
+    if (profile.role !== 'general' && (!Number.isInteger(profile.familiarity) || profile.familiarity < 0 || profile.familiarity > 5)) throw new Error('请选择熟悉程度');
     const pool = inventory().filter(pair => pair.domain === profile.domain && profile.authors.includes(pair.author));
     if (!Number.isInteger(count) || count < 1 || count > pool.length) throw new Error('题量超出所选学者题库范围');
 

@@ -29,11 +29,18 @@ export const authorSubjects=[
 export const authorMappingVersion='research-team-category-discipline-v2';
 export type Peer='small'|'large'|'cross'|'pending';
 export function classifyPeer(primary:string,secondary:string,author:string):Peer{
- const subject=authorSubjects.find(a=>a.name===author);if(!subject)return 'pending';
+ const subject=authorSubjects.find(a=>a.name===author);if(!subject||!primary)return 'pending';
  if(primary!==subject.primary)return 'cross';
  if(!secondary||secondary==='primary-only')return 'pending';
  return secondary===subject.secondary?'small':'large';
 }
 export const peerNames:Record<string,string>={small:'小同行',large:'大同行',cross:'跨学科',pending:'待细分'};
 export function subjectNames(primary:string,secondary:string){const p=disciplines.find(p=>p.code===primary);return {primary:p?.name||primary,secondary:p?.secondary.find(s=>s.code===secondary)?.name||(secondary==='primary-only'?'仅一级方向':secondary)};}
-export function validSubject(primary:string,secondary:string){const p=disciplines.find(p=>p.code===primary);return !!p&&(p.secondary.length>0?p.secondary.some(s=>s.code===secondary):secondary==='primary-only');}
+export function validSubject(primary:string,secondary:string){
+ if(!primary)return secondary==='';
+ const category=disciplines.find(d=>d.code===primary);
+ if(!category)return false;
+ return secondary===''||(category.secondary.length
+  ?category.secondary.some(d=>d.code===secondary)
+  :secondary==='primary-only');
+}

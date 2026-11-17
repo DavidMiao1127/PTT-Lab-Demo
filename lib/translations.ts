@@ -55,6 +55,7 @@ AI是否能模仿特定的人？|Can AI imitate a specific person?
 配置本轮标注|Configure this round
 标注邀请码|Annotation invitation code
 领域|Domain
+学者均以化名显示。|Scholars are shown under pseudonyms.
 学者（可多选）|Scholars (select one or more)
 角色|Role
 资料展示|Information exposure
@@ -109,11 +110,6 @@ AI是否能模仿特定的人？|Can AI imitate a specific person?
 计算机科学|Computer Science
 法律|Law
 金融|Finance
-江平|Jiang Ping
-高铭暄|Gao Mingxuan
-亚当·斯密|Adam Smith
-凯恩斯|John Maynard Keynes
-凡勃伦|Thorstein Veblen
 小同行|Same subfield
 大同行|Same discipline, different subfield
 跨学科|Different discipline
@@ -371,11 +367,7 @@ export const english:Record<string,string>={...subjects,...Object.fromEntries(li
 export type Language='zh'|'en';
 export function translate(value:string,language:Language):string{
  if(!value)return value;
- if(language==='zh')return ({'Adam Smith':'亚当·斯密','John Maynard Keynes':'约翰·梅纳德·凯恩斯','Thorstein Veblen':'索尔斯坦·凡勃伦','John Stuart Mill':'约翰·斯图亚特·密尔','Friedrich Nietzsche':'弗里德里希·尼采','Bertrand Russell':'伯特兰·罗素',
-  'Oliver Wendell Holmes Jr.':'小奥利弗·温德尔·霍姆斯','Benjamin N. Cardozo':'本杰明·卡多佐','Edsger W. Dijkstra':'艾兹格·迪杰斯特拉','Yoshua Bengio':'约书亚·本吉奥','Kaiming He':'何恺明','William Shakespeare':'威廉·莎士比亚','Jane Austen':'简·奥斯汀','Leo Tolstoy':'列夫·托尔斯泰'
- } as Record<string,string>)[value]||value;
- const author = ({'江平':'Jiang Ping','高铭暄':'Gao Mingxuan','厉以宁':'Li Yining','冯友兰':'Feng Youlan','王阳明':'Wang Yangming','鲁迅':'Lu Xun','曹雪芹':'Cao Xueqin'} as Record<string,string>)[value];
- if(author)return author;
+ if(language==='zh')return value;
  const key=value.trim();if(english[key])return value.replace(key,english[key]);
  if(key.includes(' / '))return key.split(' / ').map(v=>translate(v,language)).join(' / ');
  if(key.includes('：'))return key.split('：').map(v=>translate(v,language)).join(': ');

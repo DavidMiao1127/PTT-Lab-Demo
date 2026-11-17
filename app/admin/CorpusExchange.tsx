@@ -6,9 +6,9 @@ import { useLanguage } from '../Language';
 import './corpus-exchange.css';
 import {basePairs,importFile,sourceDownload} from '../../lib/demo-corpus';
 
-const exampleItem = basePairs.find(pair => pair.author === 'Bertrand Russell' && pair.level === 'sentence')!;
+const exampleItem = basePairs.find(pair => pair.author === 'Adrian Hartwell' && pair.level === 'sentence')!;
 const outputExample = JSON.stringify({item_id:exampleItem.item_id,method:'my-method',model:'model-v1',run_id:'run-01',generated_text:'Candidate text'});
-const pairExample = '{"domain":"philosophy","author":"Bertrand Russell","level":"sentence","task":"","context_before":"Shared text before. ","context_after":" Shared text after.","a":"Authentic sentence.","b":"Generated sentence.","real":"A","method":"my-method","run_id":"run-02"}';
+const pairExample = '{"domain":"philosophy","author":"Adrian Hartwell","level":"sentence","task":"","context_before":"Shared text before. ","context_after":" Shared text after.","a":"Authentic sentence.","b":"Generated sentence.","real":"A","method":"my-method","run_id":"run-02"}';
 
 export default function CorpusExchange() {
   const { language } = useLanguage();

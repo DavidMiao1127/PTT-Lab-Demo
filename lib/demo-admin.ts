@@ -3,7 +3,7 @@ import basePairs from '../data/demo-session-pairs.json';
 const id = 'demo-001';
 const createdAt = Date.UTC(2026, 10, 16, 4, 0);
 const profile = {
-  name: 'Demo participant', author: 'Bertrand Russell', peer: 'small', domain: 'philosophy',
+  name: 'Demo participant', author: 'Adrian Hartwell', peer: 'small', domain: 'philosophy',
   specialty: 'Philosophy', role: 'basic', familiarity: 3,
 };
 const answers = basePairs.map((pair, index) => ({

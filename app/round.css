@@ -11,3 +11,5 @@
 @media(max-width:600px){.infill-candidates .passage{max-height:400px}.passage-candidates .passage{font-size:14px;line-height:1.85}}
 
 @media(min-width:701px){.setup-content .card-footer{justify-content:flex-end}}
+
+.scholar-alias-note{flex-basis:100%;color:#607365;font-size:12px}

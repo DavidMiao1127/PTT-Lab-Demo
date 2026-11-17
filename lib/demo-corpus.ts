@@ -84,7 +84,7 @@ export async function importFile(file: File) {
         if (level === 'passage' ? !!context : !context.trim()) throw new Error('Supply shared context only for infilling tasks.');
         if ([task, context, real].some(value => value.includes(mask))) throw new Error('Remove the mask from display fields.');
         const item_id = 'src-' + await hash([author, domain, level, task, context_before, context_after, real]);
-        source = { id: item_id, item_id, author, domain, level, task, context_before, context_after, a: real, b: '', real: 'A', baseline: method, source_url: '' };
+        source = { id: item_id, item_id, author, domain, level, task, context_before, context_after, a: real, b: '', real: 'A', baseline: method };
       }
       if (candidate.includes(mask) || source.a.trim() === candidate.trim()) throw new Error('Provide different candidates without the mask.');
       if (source.context_before.length + source.context_after.length + Math.max(source.a.length, candidate.length) > 24000) {

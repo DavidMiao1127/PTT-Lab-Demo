@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Download } from 'lucide-react';
 import { useLanguage } from '../Language';
-import { getAdminData, getAdminDetail } from '../../lib/demo-admin';
+import { baselines, getAdminData, getAdminDetail } from '../../lib/demo-admin';
 import { domains, peerNames } from '../../lib/study';
 import { exposureLabels, useStatisticFormats } from './AnnotationStatistics';
 
@@ -80,7 +80,7 @@ function AnnotationDetail({ detail, pairId, onSelectPair }: {
     <select value={pairId} aria-label={language === 'en' ? 'Select a judgment' : '选择判断记录'}
       onChange={event => onSelectPair(event.target.value)}>
       {detail.answers.map((answer, index) => <option key={answer.pair_id} value={answer.pair_id}>
-        {String(index + 1).padStart(2, '0')} · {answer.baseline} · {answer.choice} / {answer.confidence}
+        {String(index + 1).padStart(2, '0')} · {baselines.find(method => method.id === answer.baseline)?.label} · {answer.choice} / {answer.confidence}
       </option>)}
     </select>
     <div className="selection-records">

@@ -36,7 +36,7 @@ export default function AnnotationStatistics() {
     },
     {
       title: label('按生成基线', 'By baseline'),
-      rows: adminStatistics.baseline.map(row => ({ ...row, label: row.id + ' · ' + row.label })),
+      rows: adminStatistics.baseline,
     },
   ];
 

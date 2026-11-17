@@ -3,12 +3,14 @@ import { basePairs, type Pair } from './demo-corpus';
 export const granularities = ['passage', 'paragraph', 'sentence'] as const;
 export const exposureLevels = ['general', 'basic', 'full'] as const;
 export const baselines = [
-  { id: 'B1', label: 'No Persona' },
-  { id: 'B2', label: 'Name-only' },
-  { id: 'B3', label: 'Multi-tier Persona' },
-  { id: 'B4', label: 'Biographical Profile' },
-  { id: 'B5', label: 'Few-shot' },
-  { id: 'B6', label: 'Personalized RAG' },
+  { id: 'B1', label: 'No persona', accuracyOffset: .10 },
+  { id: 'B2', label: 'Name-only prompting', accuracyOffset: .05 },
+  { id: 'B3', label: 'Multi-tier persona', accuracyOffset: 0 },
+  { id: 'B4', label: 'Biographical profile', accuracyOffset: .02 },
+  { id: 'B5', label: 'Few-shot prompting', accuracyOffset: -.04 },
+  { id: 'B6', label: 'Personalized RAG', accuracyOffset: -.07 },
+  { id: 'B8', label: 'User-specific LoRA', accuracyOffset: -.065 },
+  { id: 'B9', label: 'User embedding', accuracyOffset: -.05 },
 ] as const;
 
 export type Level = typeof granularities[number];
@@ -70,11 +72,11 @@ function createRound(index: number) {
   // Each round provides one observation for every granularity × baseline cell.
   const trials = shuffle(granularities.flatMap((level, levelIndex) => {
     const pairs = shuffle(pairsByAuthor.get(author)![level], random);
-    return baselines.map(({ id: baseline }, methodIndex): Trial => {
+    return baselines.map(({ id: baseline, accuracyOffset }, methodIndex): Trial => {
       const pair = pairs[methodIndex];
       const accuracy = .65 + [.04, 0, -.07][levelIndex]
         + [-.055, .005, .065][index % exposureLevels.length]
-        + [.10, .05, 0, .02, -.04, -.07][methodIndex] + skill;
+        + accuracyOffset + skill;
       const correct = random() < accuracy;
       const real: Side = random() < .5 ? 'A' : 'B';
       const choice = correct ? real : real === 'A' ? 'B' : 'A';

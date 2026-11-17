@@ -58,7 +58,15 @@ export default function CorpusExchange() {
       </div>
       <div className="corpus-controls">
         <button type="button" className="secondary" disabled={busy} onClick={download}><Download size={16} />{label('导出真实文本与任务', 'Export source texts and tasks')}</button>
-        <input ref={input} type="file" accept=".jsonl,.ndjson" aria-label={label('选择导入文件', 'Choose import file')} disabled={busy} onChange={e => { setFile(e.target.files?.[0] || null); setError(''); setResult(null); }} />
+        <div className="corpus-file-picker">
+          <input ref={input} type="file" accept=".jsonl,.ndjson" hidden disabled={busy}
+            onChange={e => { setFile(e.target.files?.[0] || null); setError(''); setResult(null); }} />
+          <button type="button" className="secondary" disabled={busy} aria-describedby="corpus-file-status"
+            onClick={() => input.current?.click()}>{label('选择文件', 'Choose file')}</button>
+          <span id="corpus-file-status" aria-live="polite" title={file?.name}>
+            {file?.name || label('未选择任何文件', 'No file selected')}
+          </span>
+        </div>
         <button type="button" className="primary" disabled={busy || !file} onClick={upload}><Upload size={16} />{label('导入配对题目', 'Import evaluation pairs')}</button>
       </div>
       <div aria-live="polite">

@@ -1,24 +1,51 @@
 'use client';
-import {LanguageSwitch,useLanguage} from '../Language';
-import {useState,useRef,useEffect} from 'react';
-import {Download,ArrowLeft} from 'lucide-react';
+
+import { useState } from 'react';
+import { ArrowLeft } from 'lucide-react';
+import { LanguageSwitch, useLanguage } from '../Language';
+import { adminStatistics } from '../../lib/demo-admin';
+import AnnotationRecords from './AnnotationRecords';
+import AnnotationStatistics, { useStatisticFormats } from './AnnotationStatistics';
 import CorpusExchange from './CorpusExchange';
-import {getAdminData,getAdminDetail} from '../../lib/demo-admin';
-import {peerNames} from '../../lib/study';
-export default function Admin(){const {t,language}=useLanguage();const [data,setData]=useState(()=>getAdminData()),[detail,setDetail]=useState<ReturnType<typeof getAdminDetail>|null>(null),[pairId,setPairId]=useState(''),[selectionId,setSelectionId]=useState('');const canvas=useRef<HTMLCanvasElement>(null);
- function load(page=0){setData(getAdminData(page));}
- function inspect(_id:string, selectedPair?:string){
-  const record=getAdminDetail(selectedPair);
-  const next=selectedPair||record.answers[0]?.pair_id;
-  setDetail(getAdminDetail(next));setPairId(next||'');setSelectionId('');
- }
- function exportFull(){download(getAdminDetail(),'aptbench-simulated-record.json');}
- function download(obj:any,name:string){const url=URL.createObjectURL(new Blob([JSON.stringify(obj,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=name;a.click();URL.revokeObjectURL(url);}
- const rows=data?.records||[],answers=rows.flatMap((s:any)=>s.answers),accuracy=answers.length?Math.round(answers.filter((a:any)=>a.correct).length/answers.length*100):null;
- const observedPairs=detail?Array.from(new Set<string>([...detail.answers.map((a:any)=>a.pair_id),...detail.visits.map((v:any)=>v.pair_id)])):[];
- const currentEvents=detail?.events.filter((batch:any)=>batch.pair_id===pairId).flatMap((batch:any)=>JSON.parse(batch.payload))||[];
- const grouped=new Map<string,any>();for(const event of currentEvents){if(event.type!=='selection_dwell'||!event.dwell)continue;const prior=grouped.get(event.dwell.id);if(!prior||event.dwell.durationMs>prior.dwell.durationMs||event.t>=prior.t)grouped.set(event.dwell.id,event);}
- const selections=[...grouped.values()].sort((a,b)=>a.dwell.startedAt-b.dwell.startedAt),selected=selections.find(event=>event.dwell.id===selectionId);
- useEffect(()=>{const c=canvas.current;if(!c||!detail)return;const ctx=c.getContext('2d')!;ctx.fillStyle='#f6f8f0';ctx.fillRect(0,0,c.width,c.height);const points=detail.events.filter((b:any)=>b.pair_id===pairId).flatMap((b:any)=>JSON.parse(b.payload)).filter((e:any)=>(e.type==='move'||e.type==='click')&&(!selected||(e.t>=selected.dwell.startedAt&&e.t<=selected.t))).sort((a:any,b:any)=>a.t-b.t);ctx.lineWidth=1.2;ctx.strokeStyle='#6b926688';ctx.beginPath();let prev:any=null;for(const p of points){const x=p.x/(p.w||1440)*c.width,y=p.y/(p.h||900)*c.height;if(!prev||p.t-prev.t>3000)ctx.moveTo(x,y);else ctx.lineTo(x,y);prev=p;}ctx.stroke();for(const p of points.filter((x:any)=>x.type==='click')){ctx.beginPath();ctx.fillStyle='#b47450';ctx.arc(p.x/(p.w||1440)*c.width,p.y/(p.h||900)*c.height,4,0,Math.PI*2);ctx.fill();}if(selected){ctx.strokeStyle='#9276b2';ctx.fillStyle='#9276b222';for(const rect of selected.dwell.rects||[]){const x=rect.x/(selected.w||1440)*c.width,y=rect.y/(selected.h||900)*c.height,w=rect.width/(selected.w||1440)*c.width,h=rect.height/(selected.h||900)*c.height;ctx.fillRect(x,y,w,h);ctx.strokeRect(x,y,w,h);}}},[detail,pairId,selectionId]);
- return <div className="admin-page"><header><LanguageSwitch/><a href="#annotator"><ArrowLeft size={15}/> {language==='en'?'Annotator view':'标注者视角'}</a><span>{t("个性化图灵测试 · 研究后台")}</span></header><div className="admin-content"><div className="section-heading"><div><h1>{t("把判断变成可分析的证据")}</h1><p>{language==='en'?'Simulated results and interaction records.':'以下结果及行为记录均为示例。'}</p></div></div><CorpusExchange/>{data&&<><div className="admin-stats">{[[t("全部标注轮次"),data.total],[t("当前页判断数量"),answers.length],[t("当前页准确率"),accuracy===null?'—':accuracy+'%'],[t("当前页已完成轮次"),rows.filter((s:any)=>s.status==='complete').length]].map(([l,v])=><div key={l as string}><span>{t(l as string)}</span><b>{v}</b></div>)}</div><div className="admin-actions"><span>{t("第 ")}{data.page+1} {t(" 页 · 每页最多 ")}{data.pageSize} {t(" 轮")}</span><button className="secondary" onClick={()=>download(data,'aptbench-summary-page-'+data.page+'.json')}><Download size={15}/> {t(" 导出本页统计")}</button><button className="secondary" disabled={data.page===0} onClick={()=>load(data.page-1)}>{t("上一页")}</button><button className="secondary" disabled={(data.page+1)*data.pageSize>=data.total} onClick={()=>load(data.page+1)}>{t("下一页")}</button></div><div className="admin-breakdown">{['small','large','cross','pending'].map(peer=>{const rs=rows.filter((s:any)=>s.profile.peer===peer),as=rs.flatMap((s:any)=>s.answers);return <div key={peer}><h3>{t(peerNames[peer])}</h3><p>{rs.length} {t(" 轮 · ")}{as.length} {t(" 个判断 · 准确率 ")}{as.length?Math.round(as.filter((a:any)=>a.correct).length/as.length*100)+'%':'—'}</p><div className="confidence-table">{[1,2,3,4,5].map(n=>{const a=as.filter((a:any)=>a.confidence===n);return <span key={n}>{t("信心 ")}{n}<b>{a.length?Math.round(a.filter((x:any)=>x.correct).length/a.length*100)+'%':'—'}</b><small>{a.length} {t(" 题")}</small></span>})}</div></div>})}</div><div className="admin-table-wrap"><table><thead><tr><th>{t("参与者 / 编号")}</th><th>{t("身份与领域")}</th><th>{t("进度")}</th><th>{t("准确率")}</th><th>{t("活跃时间")}</th><th>{t("复核线索")}</th><th>{t("操作")}</th></tr></thead><tbody>{rows.map((s:any)=><tr key={s.id}><td><b>{(language==='en'?'Demo participant':'示例参与者')}</b><small>{s.id.slice(0,8)}</small></td><td>{t(peerNames[s.profile.peer]||"待细分")} · {t(({legal:'法律',finance:'金融',philosophy:'哲学',literature:'文学'} as Record<string,string>)[s.profile.domain]||s.profile.domain)}<small>{t(s.profile.specialty||'')}</small><small>{t(({general:'普通人',basic:'有专业背景-提供基础信息',full:'有专业背景-提供全面信息'} as Record<string,string>)[s.profile.role]||s.profile.role)}</small>{s.profile.researchArea&&<small translate="no">{s.profile.researchArea}</small>}<small>{t(s.profile.author||'多位作者（旧版）')} {t(" · 熟悉度 ")}{s.profile.familiarity}/5</small></td><td>{s.status==='complete'?t("已完成"):s.status==='reading'?t('学者资料阅读'):s.status==='evidence'?t("证据标注"):t("文本判断")}<small>{s.answers.length} / {JSON.parse(s.items).length} {t(" 题")}</small></td><td>{s.answers.length?Math.round(s.answers.filter((a:any)=>a.correct).length/s.answers.length*100)+'%':'—'}</td><td>{Math.round(s.answers.reduce((t:number,a:any)=>t+a.active_ms,0)/60000)} {t(" 分钟")}</td><td className="flags">{s.flags.map((f:string)=>t(f)).join('; ')||t('暂无')}<small>{t("仅供人工复核")}</small></td><td><button className="text-button" onClick={()=>inspect(s.id)}>{t("查看记录")}</button></td></tr>)}</tbody></table>{!rows.length&&<div className="empty">{t("尚无标注数据，完成一轮后会显示在这里。")}</div>}</div></>}{detail&&<section className="admin-detail"><div className="section-heading"><div><h2>{t("标注过程与原文证据")}</h2><p>{t("记录 ")}{detail.session.id.slice(0,8)} {t(" · 时间为前台观测，无法单凭行为确认作弊。")}</p></div><button className="secondary" onClick={exportFull}><Download size={15}/> {t(" 导出完整记录")}</button></div><select value={pairId} onChange={e=>inspect(detail.session.id,e.target.value)}>{observedPairs.map(id=>{const a=detail.answers.find((answer:any)=>answer.pair_id===id);return <option key={id} value={id}>{id} · {a?a.choice+' / '+a.confidence:t('未作答')}</option>;})}</select><div className="selection-records"><h3>{t('文本选中停留记录')}</h3><p>{t('仅作为判断依据的复核线索，不直接推断重要性。')}</p>{!selections.length&&<p>{t('当前已加载轨迹中暂无达到门槛的文本选中记录。')}</p>}{selections.map(event=><article key={event.dwell.id} className={event.dwell.id===selectionId?'active':''}><div><b>{t('文本 ')}{event.dwell.side}</b><span>{(event.dwell.durationMs/1000).toFixed(1)} {t('秒')} · {t(event.dwell.stage==='evidence'?'证据标注':'文本判断')} · {new Date(event.dwell.startedAt).toISOString()} · [{event.dwell.start}, {event.dwell.end})</span><button className="text-button" onClick={()=>setSelectionId(event.dwell.id)}>{t('查看同期轨迹')}</button></div><blockquote translate="no">{event.dwell.text}</blockquote></article>)}{selectionId&&<button className="secondary" onClick={()=>setSelectionId('')}>{t('显示全部轨迹')}</button>}</div><div className="trajectory"><canvas ref={canvas} width={1000} height={550}/><p>{t("鼠标视口轨迹 · 绿色为移动，棕色为点击。当前显示 ")}{detail.events.length} / {detail.eventTotal} {t(" 批次，完整导出包含全部轨迹。触屏参与者可能没有鼠标轨迹。")}</p></div><div className="evidence-exports">{detail.evidence.map((e:any)=>{const p=JSON.parse(e.payload);return <article key={e.id}><b>{e.pair_id}</b><small>{p.factors.map((f:string)=>t(f)).join(' · ')}</small><p translate="no">{p.reason}</p>{p.quotes.map((q:any,i:number)=><blockquote key={i} translate="no">{t("文本 ")}{q.side}：{q.text}</blockquote>)}</article>})}</div></section>}</div></div>;
+
+export default function Admin() {
+  const { t, language } = useLanguage();
+  const [panel, setPanel] = useState<'statistics' | 'records'>('statistics');
+  const label = (zh: string, en: string) => language === 'en' ? en : zh;
+  const formats = useStatisticFormats();
+  const { overall } = adminStatistics;
+  const metrics = [
+    [label('全部标注轮次', 'Annotation rounds'), formats.count.format(adminStatistics.rounds)],
+    [label('判断总数', 'Total judgments'), formats.count.format(overall.count)],
+    [label('整体准确率', 'Overall accuracy'), formats.percent.format(overall.accuracy)],
+    [label('平均信心', 'Average confidence'), formats.confidence.format(overall.confidence) + ' / 5'],
+  ];
+  const tabs = [
+    { id: 'statistics', label: label('详细标注统计', 'Detailed Annotation Statistic') },
+    { id: 'records', label: label('标注记录', 'Annotation Record') },
+  ] as const;
+
+  return <div className="admin-page">
+    <header>
+      <LanguageSwitch />
+      <a href="#annotator"><ArrowLeft size={15}/> {label('标注者视角', 'Annotator view')}</a>
+      <span>{t('个性化图灵测试 · 研究后台')}</span>
+    </header>
+    <div className="admin-content">
+      <div className="section-heading"><div>
+        <h1>{label('研究者复核与结果分析', 'Researcher Inspection and Result Analysis')}</h1>
+        <p>{label('本页的结果、基线对比及行为记录均为模拟数据。', 'Results, baseline comparisons, and interaction records on this page are simulated.')}</p>
+      </div></div>
+      <CorpusExchange />
+      <dl className="admin-stats">
+        {metrics.map(([name, value]) => <div key={name}><dt>{name}</dt><dd>{value}</dd></div>)}
+      </dl>
+      <div className="admin-view-switch" role="group" aria-label={label('结果视图', 'Result view')}>
+        {tabs.map(tab => <button type="button" key={tab.id} aria-pressed={panel === tab.id}
+          aria-controls={'admin-' + tab.id} onClick={() => setPanel(tab.id)}>{tab.label}</button>)}
+      </div>
+      <div id="admin-statistics" hidden={panel !== 'statistics'}><AnnotationStatistics /></div>
+      <div id="admin-records" hidden={panel !== 'records'}><AnnotationRecords /></div>
+    </div>
+  </div>;
 }

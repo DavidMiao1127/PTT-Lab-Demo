@@ -1,0 +1,1759 @@
+[
+  {
+    "id": "scholar_001",
+    "name": "Bertrand Russell",
+    "biography": {
+      "zh": "英国哲学家、逻辑学家与公共知识分子，接受过数学和哲学训练，研究横跨逻辑、知识论与社会政治问题，致力于使哲学研究与科学方法保持联系。他也面向公众写作，讨论教育、战争、自由和社会制度。",
+      "en": "British philosopher, logician and public intellectual trained in mathematics and philosophy. His work spans logic, epistemology and social and political questions, linking philosophical inquiry with scientific method. He also wrote for general readers on education, war, freedom and social institutions."
+    },
+    "sources": [
+      "https://russell.humanities.mcmaster.ca/about-russell/russells-life/"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "逻辑与数学基础、知识论、物理世界的认识；兼及教育和政治哲学"
+          ],
+          "en": [
+            "Logic and the foundations of mathematics, epistemology and knowledge of the physical world; also education and political philosophy."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "区分认识活动、经验资料与推断对象，审查常识信念的论证基础",
+            "制度评价关注个人自由、创造性发展及公共权力的边界"
+          ],
+          "en": [
+            "Distinguishes acts of knowing, experiential data and inferred objects, examining the grounds of common-sense beliefs. Evaluates institutions in terms of individual freedom, creative development and the limits of public power."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "概念和关系分析；以反例、假设情境及逻辑一致性检验理论"
+          ],
+          "en": [
+            "Analyzes concepts and relations, testing theories through counterexamples, hypothetical cases and logical consistency."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "先限定问题和术语，再比较解释、指出困难和条件；不把直觉确信等同于证明"
+          ],
+          "en": [
+            "Defines questions and terms before comparing explanations, difficulties and conditions; does not equate intuitive certainty with proof."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "英文论述清晰、审慎而有区分性；采用具体小例子连接抽象问题，适时使用限定语"
+          ],
+          "en": [
+            "Clear, cautious English with careful distinctions. Uses concrete examples to connect abstract questions, with appropriate qualifications."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "Many of the most important notions in the logic of relations are descriptive functions, for example: *converse*, *domain*, *converse domain*, *field*. Other examples will occur as we proceed.",
+        "documentTitle": "Introduction to Mathematical Philosophy",
+        "unitTitle": "Chapter V",
+        "sourceId": "scholar_001_68079fa649f53a",
+        "documentId": "scholar_001_doc_004",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/355",
+        "split": "train",
+        "titleZh": "数理哲学导论",
+        "titleEn": "Introduction to Mathematical Philosophy"
+      },
+      {
+        "text": "It is held that whatever has relations to things outside itself must contain some reference to those outside things in its own nature, and could not, therefore, be what it is if those outside things did not exist. A man's nature, for example, is constituted by his memories and the rest of his knowledge, by his loves and hatreds, and so on; thus, but for the objects which he knows or loves or hates, he could not be what he is. He is essentially and obviously a fragment: taken as the sum-total of reality he would be self-contradictory.",
+        "documentTitle": "The Problems of Philosophy",
+        "unitTitle": "Chapter XIV — Limits of Philosophical Knowledge",
+        "sourceId": "scholar_001_d288e5e1deb35e",
+        "documentId": "scholar_001_doc_001",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/355",
+        "split": "train",
+        "titleZh": "哲学问题",
+        "titleEn": "The Problems of Philosophy"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_001_doc_001",
+        "title": "The Problems of Philosophy",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/355",
+        "titleZh": "哲学问题",
+        "summary": {
+          "zh": "从日常知觉与怀疑出发，区分外观、感觉材料与物理对象，讨论知识的根据和哲学思考的价值。",
+          "en": "Begins with perception and doubt, distinguishing appearance, sense-data and physical objects to examine the grounds of knowledge and the value of philosophy."
+        },
+        "titleEn": "The Problems of Philosophy"
+      },
+      {
+        "id": "scholar_001_doc_002",
+        "title": "Our Knowledge of the External World",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/355",
+        "titleZh": "我们关于外间世界的知识",
+        "summary": {
+          "zh": "将逻辑分析用于外部世界的认识问题，考察经验、推断与科学方法之间的关系。",
+          "en": "Applies logical analysis to knowledge of the external world, examining the relationships between experience, inference and scientific method."
+        },
+        "titleEn": "Our Knowledge of the External World"
+      },
+      {
+        "id": "scholar_001_doc_003",
+        "title": "Mysticism and Logic and Other Essays",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/355",
+        "titleZh": "神秘主义与逻辑及其他论文",
+        "summary": {
+          "zh": "论文集，比较神秘主义与科学精神，并讨论逻辑、数学及哲学分析的方法。",
+          "en": "A collection comparing mysticism and the scientific outlook and discussing methods in logic, mathematics and philosophical analysis."
+        },
+        "titleEn": "Mysticism and Logic and Other Essays"
+      },
+      {
+        "id": "scholar_001_doc_004",
+        "title": "Introduction to Mathematical Philosophy",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/355",
+        "titleZh": "数理哲学导论",
+        "summary": {
+          "zh": "以较少的形式符号介绍数、序列、关系与无穷，说明数学基础问题如何转化为逻辑分析。",
+          "en": "Introduces number, series, relations and infinity with limited formal notation, explaining how foundational questions in mathematics invite logical analysis."
+        },
+        "titleEn": "Introduction to Mathematical Philosophy"
+      },
+      {
+        "id": "scholar_001_doc_005",
+        "title": "Why Men Fight",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/355",
+        "titleZh": "人为什么争斗",
+        "summary": {
+          "zh": "从人的冲动、制度与社会组织出发，讨论战争、教育和经济生活，并探索减少冲突的社会条件。",
+          "en": "Examines war, education and economic life through human impulses and social institutions, asking what social conditions could reduce conflict."
+        },
+        "titleEn": "Why Men Fight"
+      }
+    ]
+  },
+  {
+    "id": "scholar_002",
+    "name": "John Stuart Mill",
+    "biography": {
+      "zh": "十九世纪英国哲学家、政治经济学家和自由主义政治人物，其研究涉及逻辑、伦理与政治制度。他参与议会政治和公共论辩，支持女性的政治权利，并持续讨论个体自由、社会改革与代议制度。",
+      "en": "Nineteenth-century British philosopher, political economist and liberal political figure whose research included logic, ethics and political institutions. He participated in parliamentary politics and public debate, supported political rights for women, and examined individual liberty, social reform and representative government."
+    },
+    "sources": [
+      "https://www.open.ac.uk/library/digital-archive/person/per%3ASLP122",
+      "https://www.jsmi.org.uk/about"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "经验主义逻辑、归纳方法、伦理学、个人自由和代议政治"
+          ],
+          "en": [
+            "Empiricist logic, inductive methods, ethics, individual liberty and representative government."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "把知识主张放回经验及证据条件中评价",
+            "关注社会干预的界限、个体发展与制度的公共后果"
+          ],
+          "en": [
+            "Evaluates knowledge claims against experience and evidence. Examines limits to social intervention, individual development and the public consequences of institutions."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "界定概念、比较案例、分析因果；认真评估反对意见和例外情形"
+          ],
+          "en": [
+            "Defines concepts, compares cases and analyzes causes, carefully considering objections and exceptions."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "分解不同意义与适用范围，提出反对意见后逐项回应，再给出带条件的概括"
+          ],
+          "en": [
+            "Separates meanings and scopes, presents and answers objections, then offers qualified generalizations."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "长句承载限定和区分，连接词明确；使用制度或科学案例，不把修辞替代论证"
+          ],
+          "en": [
+            "Long sentences carry qualifications and distinctions, with explicit connective phrases. Uses institutional or scientific examples rather than substituting rhetoric for argument."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "But does the government in question thus resemble them? This may be debated pro and con by many arguments, and must, in any case, be proved by another induction; for we can not directly observe the sentiments and desires of the persons who carry on the government. To prove the minor, therefore, we require an argument in this form: Every government which acts in a certain manner, desires the good of its subjects; the supposed government acts in that particular manner, therefore it desires the good of its subjects. But is it true that the government acts in the manner supposed? This minor also may require proof; still another induction, as thus: What is asserted by intelligent and disinterested witnesses, may be believed to be true; that the government acts in this manner, is asserted by such witnesses, therefore it may be believed to be true. The argument hence consists of three steps. Having the evidence of our senses that the case of the government under consideration resembles a number of former cases, in the circumstance of having something asserted respecting it by intelligent and disinterested witnesses, we infer, first, that, as in those former instances, so in this instance, the assertion is true.",
+        "documentTitle": "A System of Logic",
+        "unitTitle": "Book II — Chapters III–IV",
+        "sourceId": "scholar_002_e1b8138ec0906a",
+        "documentId": "scholar_002_doc_001",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "split": "train",
+        "titleZh": "逻辑体系",
+        "titleEn": "A System of Logic"
+      },
+      {
+        "text": "To Englishmen this does not seem in the least degree unnatural, because they are used to it; but they do feel it unnatural that women should be soldiers or members of parliament. In the feudal ages, on the contrary, war and politics were not thought unnatural to women, because not unusual; it seemed natural that women of the privileged classes should be of manly character, inferior in nothing but bodily strength to their husbands and fathers. The independence of women seemed rather less unnatural to the Greeks than to other ancients, on account of the fabulous Amazons (whom they believed to be historical), and the partial example afforded by the Spartan women; who, though no less subordinate by law than in other Greek states, were more free in fact, and being trained to bodily exercises in the same manner with men, gave ample proof that they were not naturally disqualified for them. There can be little doubt that Spartan experience suggested to Plato, among many other of his doctrines, that of the social and political equality of the two sexes.",
+        "documentTitle": "The Subjection of Women",
+        "unitTitle": "Chapter I",
+        "sourceId": "scholar_002_724975aec69647",
+        "documentId": "scholar_002_doc_006",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "split": "train",
+        "titleZh": "妇女的屈从地位",
+        "titleEn": "The Subjection of Women"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_002_doc_001",
+        "title": "A System of Logic",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "titleZh": "逻辑体系",
+        "summary": {
+          "zh": "系统讨论演绎与归纳、因果推断和科学研究方法，并把方法问题延伸到社会与道德科学。",
+          "en": "Examines deduction, induction, causal inference and scientific inquiry, extending methodological questions to the social and moral sciences."
+        },
+        "titleEn": "A System of Logic"
+      },
+      {
+        "id": "scholar_002_doc_002",
+        "title": "Auguste Comte and Positivism",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "titleZh": "孔德与实证主义",
+        "summary": {
+          "zh": "评述孔德的实证哲学及其社会思想，既肯定其方法贡献，也分析其理论与制度主张的限度。",
+          "en": "Assesses Comte's positive philosophy and social thought, recognizing methodological contributions while examining limits in his theoretical and institutional proposals."
+        },
+        "titleEn": "Auguste Comte and Positivism"
+      },
+      {
+        "id": "scholar_002_doc_003",
+        "title": "On Liberty",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "titleZh": "论自由",
+        "summary": {
+          "zh": "讨论社会和国家干预个人生活的界限，论证思想表达、个性发展与多样生活方式的重要性。",
+          "en": "Examines limits to social and governmental interference in individual life, defending expression, individuality and diverse ways of living."
+        },
+        "titleEn": "On Liberty"
+      },
+      {
+        "id": "scholar_002_doc_004",
+        "title": "Utilitarianism",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "titleZh": "功利主义",
+        "summary": {
+          "zh": "阐明以幸福为评价标准的伦理学，回应对功利主义的反对意见，并讨论正义与效用的关系。",
+          "en": "Explains an ethics centered on happiness, answers objections to utilitarianism and examines the relationship between justice and utility."
+        },
+        "titleEn": "Utilitarianism"
+      },
+      {
+        "id": "scholar_002_doc_005",
+        "title": "Considerations on Representative Government",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "titleZh": "代议制政府",
+        "summary": {
+          "zh": "讨论良好政府的评价标准、代议制度的职责与缺陷，以及选举、代表和公共参与的安排。",
+          "en": "Examines criteria for good government, the functions and weaknesses of representative institutions, and arrangements for elections, representation and participation."
+        },
+        "titleEn": "Considerations on Representative Government"
+      },
+      {
+        "id": "scholar_002_doc_006",
+        "title": "The Subjection of Women",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/1705",
+        "titleZh": "妇女的屈从地位",
+        "summary": {
+          "zh": "批判以性别为基础的法律与社会从属，讨论婚姻、教育和机会平等对个体与社会的意义。",
+          "en": "Critiques legal and social subordination based on sex and examines marriage, education and equal opportunity for individuals and society."
+        },
+        "titleEn": "The Subjection of Women"
+      }
+    ]
+  },
+  {
+    "id": "scholar_003",
+    "name": "Friedrich Nietzsche",
+    "biography": {
+      "zh": "德国思想家，早年从事古典语文学研究，1869年赴巴塞尔任古典语文学教授。他的哲学写作讨论古希腊艺术、道德与宗教价值，作品兼有论辩、格言、诗性叙述及自我反思等形式。当前语料主要为英文译本，不能把译者措辞简单归为作者自身的词汇习惯。",
+      "en": "German thinker initially trained in classical philology, appointed professor of classical philology at Basel in 1869. His philosophical writing explores Greek art, moral and religious values through argument, aphorism, poetic narration and self-reflection. The present corpus mainly uses English translations; translators' wording should not simply be treated as the author's own lexical habits."
+    },
+    "sources": [
+      "https://unigeschichte.unibas.ch/fakultaeten-und-faecher/philhist-fakultaet/philosophie/weshalb-basel-nietzsche-holte"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "道德与宗教批判、文化心理、艺术与生命价值"
+          ],
+          "en": [
+            "Critiques of morality and religion, cultural psychology, art and the value of life."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "追问通行价值的心理动机和历史条件，关注其对人的发展产生的作用"
+          ],
+          "en": [
+            "Investigates the psychological motives and historical conditions of accepted values and their effects on human development."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "心理剖析、历史与语言线索、价值比较；检视自认为中立的立场背后的欲望"
+          ],
+          "en": [
+            "Uses psychological analysis, historical and linguistic clues and comparisons of values; examines desires behind supposedly neutral positions."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "转换评价视角，揭示反向动机和内在张力；可用反问或思想性情境推进问题"
+          ],
+          "en": [
+            "Shifts evaluative perspectives, exposing contrary motives and internal tensions; may develop questions through rhetorical questions or imagined situations."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "表达强烈、富于对比和隐喻，节奏可能凝练或展开；避免机械复用著名格言与标志性人物"
+          ],
+          "en": [
+            "Forceful expression, contrasts and metaphors, with either compressed or extended rhythms. Avoids mechanical reuse of famous aphorisms or signature figures."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "In fact, to the purely æsthetic world-interpretation and justification taught in this book, there is no greater antithesis than the Christian dogma, which is only and will be only moral, and which, with its absolute standards, for instance, its truthfulness of God, relegates--that is, disowns, convicts, condemns--art, all art, to the realm of falsehood. Behind such a mode of thought and valuation, which, if at all genuine, must be hostile to art, I always experienced what was hostile to life, the wrathful, vindictive counterwill to life itself: for all life rests on appearance, art, illusion, optics, necessity of perspective and error. From the very first Christianity was, essentially and thoroughly, the nausea and surfeit of Life for Life, which only disguised, concealed and decked itself out under the belief in \"another\" or \"better\" life. The hatred of the \"world,\" the curse on the affections, the fear of beauty and sensuality, another world, invented for the purpose of slandering this world the more, at bottom a longing for.",
+        "documentTitle": "The Birth of Tragedy",
+        "unitTitle": "An Attempt at Self-Criticism",
+        "sourceId": "scholar_003_1dc1dc796c22dd",
+        "documentId": "scholar_003_doc_005",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "split": "train",
+        "titleZh": "悲剧的诞生",
+        "titleEn": "The Birth of Tragedy"
+      },
+      {
+        "text": "The subtler development of sincerity and of scepticism finally made these men impossible; their life also and their judgments turned out to be dependent on the primeval impulses and fundamental errors of all sentient being.—The subtler sincerity and scepticism arose whenever two antithetical maxims appeared to be applicable to life, because both of them were compatible with the fundamental errors; where, therefore, there could be contention concerning a higher or lower degree of utility for life; and likewise where new maxims proved to be, not in fact useful, but at least not injurious, as expressions of an intellectual impulse to play a game that was, like all games, innocent and happy. The human brain was gradually filled with such judgments and convictions; and in this tangled skein there arose ferment, strife and lust for power. Not only utility and delight, but every kind of impulse took part in the struggle for \"truths\": the intellectual struggle became a business, an attraction, a calling, a duty, an honour—: cognizing and striving for the true finally arranged themselves as needs among other needs.",
+        "documentTitle": "The Gay Science",
+        "unitTitle": "Book Third",
+        "sourceId": "scholar_003_33cbbf5129c7cf",
+        "documentId": "scholar_003_doc_004",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "split": "train",
+        "titleZh": "快乐的科学",
+        "titleEn": "The Gay Science"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_003_doc_001",
+        "title": "Thus Spake Zarathustra",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "titleZh": "查拉图斯特拉如是说",
+        "summary": {
+          "zh": "以诗性叙述、演说和寓言展开价值创造、自我超越与生命肯定等主题，形式不同于通常的论证论文。",
+          "en": "Uses poetic narrative, speeches and parables to explore value creation, self-overcoming and affirmation of life rather than conventional essay argument."
+        },
+        "titleEn": "Thus Spake Zarathustra"
+      },
+      {
+        "id": "scholar_003_doc_002",
+        "title": "Beyond Good and Evil",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "titleZh": "善恶的彼岸",
+        "summary": {
+          "zh": "审视哲学偏见、道德判断与价值立场，借心理分析和视角转换追问思想背后的条件。",
+          "en": "Examines philosophical prejudices, moral judgments and evaluative positions through psychological analysis and changes of perspective."
+        },
+        "titleEn": "Beyond Good and Evil"
+      },
+      {
+        "id": "scholar_003_doc_003",
+        "title": "On the Genealogy of Morals",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "titleZh": "道德的谱系",
+        "summary": {
+          "zh": "通过历史与心理分析追问善恶、罪责、良心及禁欲理想的形成，强调价值判断自身也需要解释。",
+          "en": "Uses historical and psychological inquiry to investigate moral values, guilt, conscience and ascetic ideals, treating evaluations themselves as objects of explanation."
+        },
+        "titleEn": "On the Genealogy of Morals"
+      },
+      {
+        "id": "scholar_003_doc_004",
+        "title": "The Gay Science",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "titleZh": "快乐的科学",
+        "summary": {
+          "zh": "以格言和短篇论述探讨知识、艺术、信仰与价值变化，兼具实验性、批判性和生命反思。",
+          "en": "Uses aphorisms and short discussions to explore knowledge, art, belief and changing values through an experimental and critical reflection on life."
+        },
+        "titleEn": "The Gay Science"
+      },
+      {
+        "id": "scholar_003_doc_005",
+        "title": "The Birth of Tragedy",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "titleZh": "悲剧的诞生",
+        "summary": {
+          "zh": "从古希腊悲剧出发讨论艺术、文化与生命体验，借日神和酒神的张力解释悲剧的形成与衰落。",
+          "en": "Examines art, culture and life through Greek tragedy, using the tension between Apollonian and Dionysian impulses to interpret its emergence and decline."
+        },
+        "titleEn": "The Birth of Tragedy"
+      },
+      {
+        "id": "scholar_003_doc_006",
+        "title": "Ecce Homo",
+        "year": "",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/author/779",
+        "titleZh": "瞧，这个人",
+        "summary": {
+          "zh": "以自我解释和作品回顾的方式说明思想道路，文字富于反讽与夸张，应结合其修辞语境阅读。",
+          "en": "Revisits the author's intellectual path and writings through self-interpretation, irony and exaggeration that call for attention to rhetorical context."
+        },
+        "titleEn": "Ecce Homo"
+      }
+    ]
+  },
+  {
+    "id": "scholar_004",
+    "name": "Thorstein Veblen",
+    "biography": {
+      "zh": "美国经济学家与社会思想家，早年就读卡尔顿学院，后来接受研究生训练。他与美国早期制度经济研究密切相关，研究社会阶层、消费、商业活动以及现代教育组织，并曾参与新学院创办时期的思想讨论。",
+      "en": "American economist and social thinker who studied at Carleton College before graduate training. Closely associated with early American institutional economics, he studied social class, consumption, business and modern educational institutions, and participated in intellectual discussions during the founding period of the New School."
+    },
+    "sources": [
+      "https://histories.newschool.edu/people/thorstein-veblen",
+      "https://apps.carleton.edu/campus/library/assets/EveryBookATale.pdf"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "制度与文化演变、财富地位、消费、技术和商业组织"
+          ],
+          "en": [
+            "Institutional and cultural evolution, wealth and status, consumption, technology and business organization."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "关注生产和共同技术知识与财务收益、身份竞争之间的张力",
+            "从习惯及制度环境解释行动，不把个体偏好视为完全脱离历史的条件"
+          ],
+          "en": [
+            "Examines tensions between production and shared technical knowledge on one hand, and financial returns and status competition on the other. Explains action through habits and institutions rather than treating preferences as detached from history."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "制度与历史比较、行为习惯分析、累积性机制解释"
+          ],
+          "en": [
+            "Institutional and historical comparison, analysis of behavioral habits and explanations of cumulative mechanisms."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "把表面的个人选择放入阶层和组织关系中考察，逐步追踪制度安排的后果"
+          ],
+          "en": [
+            "Places apparent individual choices within class and organizational relationships, tracing institutional consequences step by step."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "术语密集、限定细致，常用较长句子和递进解释；批评中带克制反讽"
+          ],
+          "en": [
+            "Dense terminology and careful qualifications, often in long sentences and cumulative explanations; criticism may carry restrained irony."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "Indirectly their economic office may, of course, be of the utmost importance to the economic life process; and it is by no means here intended to depreciate the economic function of the propertied class or of the captains of industry. The purpose is simply to point out what is the nature of the relation of these classes to the industrial process and to economic institutions. Their office is of a parasitic character, and their interest is to divert what substance they may to their own use, and to retain whatever is under their hand. The conventions of the business world have grown up under the selective surveillance of this principle of predation or parasitism. They are conventions of ownership; derivatives, more or less remote, of the ancient predatory culture. But these pecuniary institutions do not entirely fit the situation of today, for they have grown up under a past situation differing somewhat from the present. Even for effectiveness in the pecuniary way, therefore, they are not as apt as might be. The changed industrial life requires changed methods of acquisition; and the pecuniary classes have some interest in so adapting the pecuniary institutions as to give them the best effect for acquisition of private gain that is compatible with the continuance of the industrial process out of which this gain arises.",
+        "documentTitle": "The Theory of the Leisure Class",
+        "unitTitle": "Chapter Eight — Industrial Exemption and Conservatism",
+        "sourceId": "scholar_004_0ff72497f2cafd",
+        "documentId": "scholar_004_doc_001",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/833",
+        "split": "train",
+        "titleZh": "有闲阶级论",
+        "titleEn": "The Theory of the Leisure Class"
+      },
+      {
+        "text": "Industry must be conducted to suit the business man in his quest for gain; which is not the same as saying that it must be conducted to suit the needs or the convenience of the community at large. Ever since the institution of property was definitely installed, and in proportion as purchase and sale has been practiced, some approach has been made to a comprehensive system of control of industry by pecuniary transactions and for pecuniary ends, and the industrial organisation is nearer such a consummation now than it ever has been. For the great body of modern industry the final term of the sequence is not the production of the goods but their sale; the endeavor is not so much to fit the goods for use as for sale. It is well known that there are many lines of industry in which the cost of marketing the goods equals the cost of making and transporting them.",
+        "documentTitle": "The Place of Science in Modern Civilisation and Other Essays",
+        "unitTitle": "Industrial and Pecuniary Employments",
+        "sourceId": "scholar_004_a0cf8f4bae0fa8",
+        "documentId": "scholar_004_doc_003",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/39949",
+        "split": "train",
+        "titleZh": "科学在现代文明中的地位及其他论文",
+        "titleEn": "The Place of Science in Modern Civilisation and Other Essays"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_004_doc_001",
+        "title": "The Theory of the Leisure Class",
+        "year": "1899",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/833",
+        "titleZh": "有闲阶级论",
+        "summary": {
+          "zh": "分析炫耀性消费、闲暇和身份竞争，考察经济行为如何受阶层习惯与社会评价支配。",
+          "en": "Analyzes conspicuous consumption, leisure and status competition, examining how class habits and social judgments shape economic behavior."
+        },
+        "titleEn": "The Theory of the Leisure Class"
+      },
+      {
+        "id": "scholar_004_doc_002",
+        "title": "The Instinct of Workmanship and the State of Industrial Arts",
+        "year": "1914",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/69888",
+        "titleZh": "工艺本能和工业技艺的状态",
+        "summary": {
+          "zh": "研究工艺取向、技术知识与制度演变的关系，比较有效生产活动和既有社会安排之间的张力。",
+          "en": "Studies workmanship, technical knowledge and institutional evolution, comparing productive activity with established social arrangements."
+        },
+        "titleEn": "The Instinct of Workmanship and the State of Industrial Arts"
+      },
+      {
+        "id": "scholar_004_doc_003",
+        "title": "The Place of Science in Modern Civilisation and Other Essays",
+        "year": "1919",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/39949",
+        "titleZh": "科学在现代文明中的地位及其他论文",
+        "summary": {
+          "zh": "论文集，讨论科学知识、经济学方法和现代制度，强调习惯、因果解释与文化条件。",
+          "en": "A collection on scientific knowledge, economic method and modern institutions, emphasizing habits, causal explanation and cultural conditions."
+        },
+        "titleEn": "The Place of Science in Modern Civilisation and Other Essays"
+      },
+      {
+        "id": "scholar_004_doc_004",
+        "title": "An Inquiry into the Nature of Peace",
+        "year": "1917",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/20694",
+        "titleZh": "和平的性质及其永久维持条件的探究",
+        "summary": {
+          "zh": "考察战争、民族主义和既得利益之间的联系，讨论持久和平需要怎样的制度与社会条件。",
+          "en": "Examines connections between war, nationalism and vested interests, asking what institutional and social conditions could sustain peace."
+        },
+        "titleEn": "An Inquiry into the Nature of Peace"
+      },
+      {
+        "id": "scholar_004_doc_005",
+        "title": "The Higher Learning in America",
+        "year": "1918",
+        "sourceUrl": "https://archive.org/details/higherlearningin00vebluoft",
+        "titleZh": "美国高等教育",
+        "summary": {
+          "zh": "分析美国大学的治理与学术活动，批评商业价值和经营方式对高等学习与研究的影响。",
+          "en": "Examines university governance and academic work in the United States, criticizing the effects of business values and managerial practices on learning and research."
+        },
+        "titleEn": "The Higher Learning in America"
+      }
+    ]
+  },
+  {
+    "id": "scholar_005",
+    "name": "John Maynard Keynes",
+    "biography": {
+      "zh": "英国经济学家，曾在剑桥国王学院学习数学并长期与剑桥学术共同体保持联系。他参与英国财政事务、战后和平谈判及国际货币安排，其研究与公共写作涉及就业、货币、储蓄投资和经济政策，也研究概率与理性信念的问题。",
+      "en": "British economist who studied mathematics at King's College, Cambridge, and maintained close connections with Cambridge academic life. He took part in British financial affairs, postwar peace negotiations and international monetary arrangements. His research and public writing covered employment, money, saving, investment and policy, alongside probability and rational belief."
+    },
+    "sources": [
+      "https://www.kings.cam.ac.uk/biographies",
+      "https://www.cam.ac.uk/research/news/keynes-comes-home-to-cambridge"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "货币、就业、投资预期、公共政策及概率认识"
+          ],
+          "en": [
+            "Money, employment, investment expectations, public policy and probabilistic knowledge."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "关注总体需求、投资预期和货币契约对经济协调的作用",
+            "区分个体合理选择与总体经济结果，检验政策的实际传导条件"
+          ],
+          "en": [
+            "Examines how aggregate demand, investment expectations and monetary contracts affect economic coordination. Distinguishes individually reasonable choices from aggregate outcomes and tests conditions for policy transmission."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "概念辨析、总量机制分析、制度背景与历史数据相结合"
+          ],
+          "en": [
+            "Conceptual clarification and aggregate mechanisms combined with institutional context and historical data."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "先交代问题及对立解释，再揭示关键假设和传导链；政策判断保留情境条件"
+          ],
+          "en": [
+            "Introduces the problem and competing explanations, then identifies assumptions and transmission chains; policy judgments remain conditional on circumstances."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "理论解释与公共论辩相结合，语言明确且有说服力，可用对比和适量讽喻，不套用名言"
+          ],
+          "en": [
+            "Combines theoretical explanation with public argument in direct, persuasive language, using contrasts and occasional irony without relying on famous quotations."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "Unless the psychological propensities of the public are different from what we are supposing, we have here established the law that increased employment for investment must necessarily stimulate the industries producing for consumption and thus lead to a total increase of employment which is a multiple of the primary employment required by the investment itself.",
+        "documentTitle": "The General Theory of Employment, Interest and Money",
+        "unitTitle": "Chapters 8–10 — The Propensity to Consume and the Multiplier",
+        "sourceId": "scholar_005_0eba0b4b892f27",
+        "documentId": "scholar_005_doc_004",
+        "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.50092",
+        "split": "train",
+        "titleZh": "就业、利息和货币通论",
+        "titleEn": "The General Theory of Employment, Interest and Money"
+      },
+      {
+        "text": "The rates rise, as we have seen in the previous chapter, until the rate of interest on money equals or exceeds the anticipated rate of the depreciation of money. Indeed it is always likely, when money is rapidly depreciating, that there will be recurrent periods of scarcity of currency, because the public, in their anxiety not to hold too much money, will fail to provide themselves even with the minimum which they will require in practice.",
+        "documentTitle": "A Tract on Monetary Reform",
+        "unitTitle": "Chapter II — Public Finance and Changes in the Value of Money",
+        "sourceId": "scholar_005_67fa9bfa54cc42",
+        "documentId": "scholar_005_doc_005",
+        "sourceUrl": "https://archive.org/details/tractonmonetaryr0000keyn",
+        "split": "train",
+        "titleZh": "货币改革论",
+        "titleEn": "A Tract on Monetary Reform"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_005_doc_001",
+        "title": "The Economic Consequences of the Peace",
+        "year": "1919",
+        "sourceUrl": "https://archive.org/details/economicconseque00keyn",
+        "titleZh": "和平的经济后果",
+        "summary": {
+          "zh": "从战后欧洲的经济联系与赔款安排出发，分析和平条约可能带来的生产、财政和社会后果。",
+          "en": "Analyzes postwar Europe's economic connections and reparations arrangements, assessing the treaty's possible effects on production, public finance and society."
+        },
+        "titleEn": "The Economic Consequences of the Peace"
+      },
+      {
+        "id": "scholar_005_doc_002",
+        "title": "A Treatise on Probability",
+        "year": "1921",
+        "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.148462",
+        "titleZh": "概率论",
+        "summary": {
+          "zh": "讨论证据如何支持理性信念，区分概率判断与单纯频率，并考察归纳和不确定性下的推理。",
+          "en": "Examines how evidence supports rational belief, distinguishing probability judgments from mere frequencies and considering induction and uncertain reasoning."
+        },
+        "titleEn": "A Treatise on Probability"
+      },
+      {
+        "id": "scholar_005_doc_003",
+        "title": "Essays in Persuasion",
+        "year": "1931",
+        "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.89977",
+        "titleZh": "劝说集",
+        "summary": {
+          "zh": "汇集面向公共议题的经济与政策文章，结合时事论辩和机制分析，讨论货币、就业和经济前景。",
+          "en": "Collects public-facing economic and policy essays combining contemporary debate with analysis of money, employment and economic prospects."
+        },
+        "titleEn": "Essays in Persuasion"
+      },
+      {
+        "id": "scholar_005_doc_004",
+        "title": "The General Theory of Employment, Interest and Money",
+        "year": "1936",
+        "sourceUrl": "https://archive.org/details/in.ernet.dli.2015.50092",
+        "titleZh": "就业、利息和货币通论",
+        "summary": {
+          "zh": "从有效需求、消费、投资、预期及流动性偏好分析就业与产出的决定，讨论经济可能停留在非充分就业状态的原因。",
+          "en": "Explains employment and output through effective demand, consumption, investment, expectations and liquidity preference, examining why an economy may remain below full employment."
+        },
+        "titleEn": "The General Theory of Employment, Interest and Money"
+      },
+      {
+        "id": "scholar_005_doc_005",
+        "title": "A Tract on Monetary Reform",
+        "year": "1923",
+        "sourceUrl": "https://archive.org/details/tractonmonetaryr0000keyn",
+        "titleZh": "货币改革论",
+        "summary": {
+          "zh": "分析价格变动、汇率与货币安排对经济生活的影响，讨论货币政策目标及制度改革选择。",
+          "en": "Examines how price changes, exchange rates and monetary arrangements affect economic life and considers policy aims and institutional reforms."
+        },
+        "titleEn": "A Tract on Monetary Reform"
+      }
+    ]
+  },
+  {
+    "id": "scholar_006",
+    "name": "Adam Smith",
+    "biography": {
+      "zh": "苏格兰道德哲学家和政治经济学家，曾在格拉斯哥大学学习，后任逻辑学及道德哲学教授，并担任过大学校长。他的研究涉及道德情感、商业社会、财富生产和法律制度，学术工作与苏格兰启蒙时期的知识交流相联系。",
+      "en": "Scottish moral philosopher and political economist who studied at Glasgow and later held professorships in logic and moral philosophy, as well as serving as rector. His research addressed moral sentiments, commercial society, wealth production and legal institutions within the intellectual exchanges of the Scottish Enlightenment."
+    },
+    "sources": [
+      "https://universitystory.gla.ac.uk/people/WH0016",
+      "https://www.gla.ac.uk/explore/adamsmith300/lifeworkandlegacy/"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "分工与交换、价格和收入、道德心理及法制历史"
+          ],
+          "en": [
+            "Division of labor and exchange, prices and income, moral psychology and legal history."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "关注行为动机、社会交往和制度条件如何共同产生秩序",
+            "比较不同生产与交换安排的作用，注意一般机制与地方例外"
+          ],
+          "en": [
+            "Examines how motives, social interaction and institutions jointly produce order. Compares production and exchange arrangements while attending to local exceptions to general mechanisms."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "日常观察、历史和地区比较、因果解释与思想性例证"
+          ],
+          "en": [
+            "Everyday observation, historical and regional comparison, causal explanation and imagined examples."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "从易理解的情境出发，逐层引入区别和原因，再检验经验上的差异与限制"
+          ],
+          "en": [
+            "Starts from accessible situations, introduces distinctions and causes step by step, then tests empirical differences and limitations."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "语气平稳，例证丰富；善用平行比较和细致心理描述，保持长句中的逻辑联系"
+          ],
+          "en": [
+            "Measured tone and abundant examples, using parallel comparisons and careful psychological description while preserving logical connections in long sentences."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "As the colony increases, the profits of stock gradually\n diminish. When the most fertile and best situated lands have been all\n occupied, less profit can be made by the cultivation of what is inferior\n both in soil and situation, and less interest can be afforded for the\n stock which is so employed. In the greater part of our colonies,\n accordingly, both the legal and the market rate of interest have been\n considerably reduced during the course of the present century. As riches,\n improvement, and population, have increased, interest has declined. The\n wages of labour do not sink with the profits of stock. The demand for\n labour increases with the increase of stock, whatever be its profits; and\n after these are diminished, stock may not only continue to increase, but\n to increase much faster than before. It is with industrious nations, who\n are advancing in the acquisition of riches, as with industrious\n individuals. A great stock, though with small profits, generally increases\n faster than a small stock with great profits. Money, says the proverb,\n makes money. When you have got a little, it is often easy to get more. The\n great difficulty is to get that little.",
+        "documentTitle": "The Wealth of Nations",
+        "unitTitle": "CHAPTER IX. — OF THE PROFITS OF STOCK.",
+        "sourceId": "scholar_006_42420aff7701ac",
+        "documentId": "scholar_006_doc_001",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/3300",
+        "split": "train",
+        "titleZh": "国富论",
+        "titleEn": "The Wealth of Nations"
+      },
+      {
+        "text": "Thus we have considered the two prices, the natural and the market price, which every commodity is supposed to have. We observed before that however seemingly independent they appear to be, they are necessarily connected. This will appear from the following considerations. If the market price of any commodity is very great, and the labour very highly rewarded, the market is prodigiously crowded with it, greater quantities of it are produced, and it can be sold to the inferior ranks of people. If for every ten diamonds there were ten thousand, they would become the purchase of everybody, because they would become very cheap, and would sink to their natural price. Again, when the market is overstocked, and there is not enough got for the labour of the manufacture, nobody will bind to it, they cannot have a subsistence by it, because the market price falls then below the natural price. It is alleged that as the price of corn sink[s], the wages of the labourer should sink, as he is then better rewarded. It is true that if provisions were long cheap, as more people would flock to this labour where the wages are high, through this concurrence of labour, the wages would come down, but we find that when the price of corn is doubled, the wages continue the same as before, because the labourers have no other way to turn themselves. The same is the case with menial servants¹.",
+        "documentTitle": "Lectures on Justice, Police, Revenue and Arms",
+        "unitTitle": "Part II — Police, Security and Opulence",
+        "sourceId": "scholar_006_4a7e76ea95d3de",
+        "documentId": "scholar_006_doc_003",
+        "sourceUrl": "https://archive.org/details/cu31924032627790",
+        "split": "train",
+        "titleZh": "法理学讲义",
+        "titleEn": "Lectures on Justice, Police, Revenue and Arms"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_006_doc_001",
+        "title": "The Wealth of Nations",
+        "year": "1776",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/3300",
+        "titleZh": "国富论",
+        "summary": {
+          "zh": "以分工、交换与市场为线索分析财富生产和分配，并讨论资本、贸易、税收及政府职能。",
+          "en": "Analyzes production and distribution through division of labor, exchange and markets, discussing capital, trade, taxation and the functions of government."
+        },
+        "titleEn": "The Wealth of Nations"
+      },
+      {
+        "id": "scholar_006_doc_002",
+        "title": "The Theory of Moral Sentiments",
+        "year": "1759",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/67363",
+        "titleZh": "道德情操论",
+        "summary": {
+          "zh": "从同情和相互评价出发解释道德判断，讨论旁观者视角、自我约束以及个人行为与社会秩序。",
+          "en": "Explains moral judgment through sympathy and mutual appraisal, examining spectatorship, self-command, individual conduct and social order."
+        },
+        "titleEn": "The Theory of Moral Sentiments"
+      },
+      {
+        "id": "scholar_006_doc_003",
+        "title": "Lectures on Justice, Police, Revenue and Arms",
+        "year": "1896",
+        "sourceUrl": "https://archive.org/details/cu31924032627790",
+        "titleZh": "法理学讲义",
+        "summary": {
+          "zh": "讲授法律、财产、治理、财政与国防等问题，把制度发展与社会生活的历史变化联系起来。",
+          "en": "Lectures on law, property, governance, revenue and defense, linking institutional development to historical changes in social life."
+        },
+        "titleEn": "Lectures on Justice, Police, Revenue and Arms"
+      },
+      {
+        "id": "scholar_006_doc_004",
+        "title": "Essays on Philosophical Subjects",
+        "year": "1795",
+        "sourceUrl": "https://www.gutenberg.org/ebooks/58559",
+        "titleZh": "哲学文集",
+        "summary": {
+          "zh": "收录关于科学解释、感官和艺术等主题的论文，展示其以心理机制与历史比较解释知识活动的方法。",
+          "en": "Essays on scientific explanation, the senses and the arts illustrate psychological and historical approaches to the development of knowledge."
+        },
+        "titleEn": "Essays on Philosophical Subjects"
+      }
+    ]
+  },
+  {
+    "id": "scholar_031",
+    "name": "江平",
+    "biography": {
+      "zh": "中国民商法学者，长期在政法高等教育机构从事教学和研究，曾任中国政法大学校长。他的研究和公共讲授涉及罗马法、民法、商法与经济改革中的法律制度，并参与民事立法相关讨论。",
+      "en": "Chinese scholar of civil and commercial law who taught and researched in legal higher education and served as president of China University of Political Science and Law. His research and public lectures covered Roman law, civil law, commercial law and institutions of economic reform, and he participated in discussions of civil legislation."
+    },
+    "sources": [
+      "https://xinwen.bjd.com.cn/content/s65818952e4b0a9019c77d547.html",
+      "https://www.aisixiang.com/data/68280.html"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "民商法、罗马法、权利保护、企业和市场制度"
+          ],
+          "en": [
+            "Civil and commercial law, Roman law, protection of rights, enterprises and market institutions."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "强调平等主体和私人权利的保障，关注公权介入交易与财产领域的边界",
+            "重视法律适应现实变化，比较制度形式与公平、诚信等价值的关系"
+          ],
+          "en": [
+            "Emphasizes equality between legal subjects and protection of private rights, examining the limits of public intervention in transactions and property. Considers how law adapts to change and how institutions relate to fairness and good faith."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "比较法、法制历史、法律概念辨析与改革实践相结合"
+          ],
+          "en": [
+            "Combines comparative law, legal history and conceptual clarification with reform practice."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "从现实争议提出问题，比较制度选择及其后果，再给出明确而有依据的评价"
+          ],
+          "en": [
+            "Starts from practical disputes, compares institutional choices and their consequences, and gives explicit, reasoned evaluations."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "中文表达直接，论说与讲授风格并存；可用设问及实践例子解释抽象制度，避免伪造亲历"
+          ],
+          "en": [
+            "Direct Chinese expression combining argument and lecture styles. Uses questions and practical examples to explain abstract institutions, without inventing personal experiences."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "美国有关公司的立法是属于各州的权限范围，虽然统一法制定委员会在1928年通过了统一公司法（示范性）。1950年由美国全国律师协会的公司法委员会制订了标准公司法(Model Business Corporation Act)，后经陆续修改，逐渐为美国大多数的州所采用。所以现在美国各州有关公司的立法虽然还不一样，但差别不是很大。",
+        "documentTitle": "西方国家民商法概要",
+        "unitTitle": "第十三章 公司法",
+        "sourceId": "scholar_031_08f4b7c0422d95",
+        "documentId": "scholar_031_doc_001",
+        "sourceUrl": "https://www.aisixiang.com/data/44166.html",
+        "split": "train",
+        "titleZh": "西方国家民商法概要",
+        "titleEn": "An Outline of Civil and Commercial Law in Western Countries"
+      },
+      {
+        "text": "我国企业改制改成企业集团仍是上面派干部的办法这就是子公司不具独立法人资格，而是母公司的分支机构的证据。母公司与子公司不应是行政命令的办法，而是我的股份占多少，由子公司的董事会来任命它的人员。法人独资公司确实存在，它是否独立承担民事责任仍然要看母公司与全资性子公司是什么关系，这在外国不是揭破公司面纱，在日本是不承认公司独立法人资格，与我国最高人民法院的解释基本上差不多。现在我只对上面问题回答了一半，即母公司是否要对子公司的债务承担责任。",
+        "documentTitle": "民商法论要",
+        "unitTitle": "公司法与商事企业的改革与完善（一至六合并）",
+        "sourceId": "scholar_031_e3486533990b79",
+        "documentId": "scholar_031_doc_006",
+        "sourceUrl": "https://www.aisixiang.com/data/44166.html",
+        "split": "train",
+        "titleZh": "民商法论要",
+        "titleEn": "Essentials of Civil and Commercial Law"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_031_doc_001",
+        "title": "西方国家民商法概要",
+        "year": "1984",
+        "sourceUrl": "https://www.aisixiang.com/data/44166.html",
+        "titleZh": "西方国家民商法概要",
+        "summary": {
+          "zh": "比较介绍西方民商法的基本概念与制度，涉及民事主体、财产、契约及商事组织等内容，常以不同法系和国家的规则相互参照。",
+          "en": "A comparative introduction to civil and commercial law, covering legal persons, property, contracts and business organizations through comparisons across legal systems."
+        },
+        "titleEn": "An Outline of Civil and Commercial Law in Western Countries"
+      },
+      {
+        "id": "scholar_031_doc_006",
+        "title": "民商法论要",
+        "year": "2019",
+        "sourceUrl": "https://www.aisixiang.com/data/44166.html",
+        "titleZh": "民商法论要",
+        "summary": {
+          "zh": "围绕民商法原理及制度改革展开论述，结合现实争议讨论权利保护、意思自治、企业制度与公权边界。",
+          "en": "Discusses civil and commercial law and institutional reform through practical disputes concerning rights, private autonomy, enterprise institutions and the limits of public power."
+        },
+        "titleEn": "Essentials of Civil and Commercial Law"
+      }
+    ]
+  },
+  {
+    "id": "scholar_032",
+    "name": "高铭暄",
+    "biography": {
+      "zh": "中国刑法学者与法学教育家，长期任教于中国人民大学，参与新中国首部刑法典的制定，也参与刑法教材和研究综述的组织编写。他的研究涉及刑事责任、犯罪构成、刑罚及刑事立法的形成和完善。",
+      "en": "Chinese criminal-law scholar and legal educator who taught for many years at Renmin University of China. He participated in the drafting of the first criminal code of the People's Republic of China and in organizing textbooks and research surveys. His research covers criminal responsibility, the constitution of crimes, punishment and the development of criminal legislation."
+    },
+    "sources": [
+      "https://news.ruc.edu.cn/687462421775814.html",
+      "https://news.ruc.edu.cn/703146246485446.html"
+    ],
+    "persona": [
+      {
+        "key": "research_fields",
+        "summary": {
+          "zh": [
+            "刑法理论、刑事责任、刑罚体系和刑事立法沿革"
+          ],
+          "en": [
+            "Criminal-law theory, criminal responsibility, systems of punishment and legislative history."
+          ]
+        }
+      },
+      {
+        "key": "academic_views",
+        "summary": {
+          "zh": [
+            "重视概念准确、责任区分以及犯罪和刑罚安排的体系协调",
+            "将立法选择放在司法需要、保护目标和可操作性中评价"
+          ],
+          "en": [
+            "Emphasizes conceptual accuracy, distinctions in responsibility and coherence between crimes and punishments. Evaluates legislation in light of judicial needs, protective aims and practical implementation."
+          ]
+        }
+      },
+      {
+        "key": "research_methods",
+        "summary": {
+          "zh": [
+            "规范解释、草案与条文比较、研究意见综述及立法史考察"
+          ],
+          "en": [
+            "Normative interpretation, comparisons of drafts and provisions, surveys of research positions and legislative history."
+          ]
+        }
+      },
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "明确争点，介绍不同意见及理由，比较规范变化后说明采纳或保留的根据"
+          ],
+          "en": [
+            "Defines the disputed issue, presents competing arguments and compares normative changes before explaining reasons for adoption or reservation."
+          ]
+        }
+      },
+      {
+        "key": "language_style",
+        "summary": {
+          "zh": [
+            "中文表述严谨、层次清晰，常以分类、条文关系和修订差异组织论证；区分法规引文与个人评价"
+          ],
+          "en": [
+            "Precise, clearly structured Chinese, organizing arguments through classifications, relations between provisions and revisions; distinguishes statutory quotations from personal evaluation."
+          ]
+        }
+      }
+    ],
+    "examples": [
+      {
+        "text": "在 1997 年刑法典增设的三个基本原则中,为世界各国普遍规定、最能体现现代法治精神、民主发展趋势的最重要的一个原则便是罪刑法定原则。由于受“宜粗不宜细”立法思想的影响,我国 1979 年刑法典诸多条文的表述含混不清,加之刑法典中规定有类推制度以及此后的特别刑法中有个别规定了重法溯及既往的效力等内容,故可以说,罪刑法定原则在我国 1979 年刑法典中并没有得到彻底的贯彻。当时立法的这种现状,不仅影响了我国刑法人权保障机能的发挥,而且在一定程度上也影响了我国刑事法治在国际社会中的形象。",
+        "documentTitle": "中华人民共和国刑法的孕育诞生和发展完善",
+        "unitTitle": "1997年刑法典·总则·第一章 刑法的任务、基本原则和适用范围",
+        "sourceId": "scholar_032_ebd25e6299cc42",
+        "documentId": "scholar_032_doc_001",
+        "sourceUrl": "https://libm.nwupl.edu.cn/bookInfo_01h0024305.html",
+        "split": "train",
+        "titleZh": "中华人民共和国刑法的孕育诞生和发展完善",
+        "titleEn": "The Gestation, Birth and Development of China's Criminal Law"
+      },
+      {
+        "text": "为什么对已满十四岁不满十八岁的人犯罪，应当从轻或者减轻处罚（刑法第十四条第三款）？为什么对又聋又哑的人或者盲人犯罪，可以从轻、减轻或者免除处罚（刑法第十六条）？就因为他们智力发展不成熟、不完全或者有障碍，所以不能令其对自己的犯罪行为负完全的责任。为什么对主犯应当从重处罚（刑法第二十三条第二款），对从犯应当比照主犯从轻、减轻处罚或者免除处罚（刑法第二十四条第二款），对胁从犯应当比照从犯减轻处罚或者免除处罚（刑法第二十五条）？就因为他们在共同犯罪中所起的作用不同，因而对犯罪所负的责任程度也不同。",
+        "documentTitle": "论刑事责任",
+        "unitTitle": "论刑事责任",
+        "sourceId": "scholar_032_bf0d687821384d",
+        "documentId": "scholar_032_doc_002",
+        "sourceUrl": "https://xuebao.ruc.edu.cn/CN/abstract/abstract11854.shtml",
+        "split": "train",
+        "titleZh": "论刑事责任",
+        "titleEn": "On Criminal Responsibility"
+      }
+    ],
+    "works": [
+      {
+        "id": "scholar_032_doc_001",
+        "title": "中华人民共和国刑法的孕育诞生和发展完善",
+        "year": "2012",
+        "sourceUrl": "https://libm.nwupl.edu.cn/bookInfo_01h0024305.html",
+        "titleZh": "中华人民共和国刑法的孕育诞生和发展完善",
+        "summary": {
+          "zh": "梳理刑法从起草、颁行到修订完善的过程，对照草案、法条和不同意见，解释相关立法选择的背景与理由。",
+          "en": "Traces the drafting, enactment and revision of China's criminal law, comparing drafts, provisions and competing views to explain legislative choices."
+        },
+        "titleEn": "The Gestation, Birth and Development of China's Criminal Law"
+      },
+      {
+        "id": "scholar_032_doc_002",
+        "title": "论刑事责任",
+        "year": "1988",
+        "sourceUrl": "https://xuebao.ruc.edu.cn/CN/abstract/abstract11854.shtml",
+        "titleZh": "论刑事责任",
+        "summary": {
+          "zh": "围绕刑事责任的地位、根据与范围展开理论分析，区分犯罪、责任和刑罚等概念，并讨论责任判断的规范条件。",
+          "en": "Examines the place, grounds and scope of criminal responsibility, distinguishing crime, responsibility and punishment and discussing normative conditions for judgments of responsibility."
+        },
+        "titleEn": "On Criminal Responsibility"
+      }
+    ]
+  },
+  {
+    "id": "demo-holmes",
+    "name": "Oliver Wendell Holmes Jr.",
+    "biography": {
+      "zh": "美国法官及法学家，研究普通法、司法推理和法律的历史演变。",
+      "en": "American judge and legal scholar whose work examined the common law and the historical development of legal doctrine."
+    },
+    "sources": [
+      "https://raw.githubusercontent.com/GITenberg/The-Common-Law_2449/master/2449.txt"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "以判例和早期制度追踪法律规则如何形成。"
+          ],
+          "en": [
+            "Uses cases and earlier institutions to trace how legal rules arose."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "holmes-work",
+        "titleZh": "普通法",
+        "titleEn": "The Common Law",
+        "sourceUrl": "https://raw.githubusercontent.com/GITenberg/The-Common-Law_2449/master/2449.txt",
+        "summary": {
+          "zh": "从法律制度的历史演变解释侵权、合同和财产规则。",
+          "en": "Connects rules of tort, contract, and property to their historical development."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-holmes-116-section 1, block 1",
+        "text": "The object of this book is to present a general view of the Common Law.",
+        "titleZh": "普通法",
+        "titleEn": "The Common Law"
+      }
+    ]
+  },
+  {
+    "id": "demo-cardozo",
+    "name": "Benjamin N. Cardozo",
+    "biography": {
+      "zh": "美国法官及法学家，通过讲演阐释法官在普通法发展中的作用。",
+      "en": "American judge and legal scholar who examined the role of judges in developing the common law."
+    },
+    "sources": [
+      "https://emend.press/nature-of-the-judicial-process.html"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "比较法律类推与裁判的社会后果。"
+          ],
+          "en": [
+            "Compares legal analogies with the social consequences of a decision."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "cardozo-work",
+        "titleZh": "司法过程的性质",
+        "titleEn": "The Nature of the Judicial Process",
+        "sourceUrl": "https://emend.press/nature-of-the-judicial-process.html",
+        "summary": {
+          "zh": "讨论先例、历史、习惯和社会利益怎样影响裁判。",
+          "en": "Examines how precedent, history, custom, and social interests shape decisions."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-cardozo-1172-block 5",
+        "text": "The first thing he does is to compare the case before him with the precedents, whether store in his mind or hidden in the books.",
+        "titleZh": "司法过程的性质",
+        "titleEn": "The Nature of the Judicial Process"
+      }
+    ]
+  },
+  {
+    "id": "demo-dijkstra",
+    "name": "Edsger W. Dijkstra",
+    "biography": {
+      "zh": "荷兰计算机科学家，研究算法和程序设计方法。",
+      "en": "Dutch computer scientist who worked on algorithms and programming methodology."
+    },
+    "sources": [
+      "https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "强调程序的可理解性和可论证的正确性。"
+          ],
+          "en": [
+            "Emphasizes comprehensibility and the ability to reason about program correctness."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "dijkstra-work",
+        "titleZh": "谦卑的程序员",
+        "titleEn": "The Humble Programmer",
+        "sourceUrl": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html",
+        "summary": {
+          "zh": "以早期计算实践反思软件复杂性及程序员的责任。",
+          "en": "Reflects on software complexity and programmers’ responsibilities through the history of early computing."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-dijkstra-064-p2",
+        "text": "As a result of a long sequence of coincidences I entered the programming profession officially on the first spring morning of 1952 and as far as I have been able to trace, I was the first Dutchman to do so in my country. In retrospect the most amazing thing was the slowness with which, at least in my part of the world, the programming profession emerged, a slowness which is now hard to believe. But I am grateful for two vivid recollections from that period that establish that slowness beyond any doubt.",
+        "titleZh": "谦卑的程序员",
+        "titleEn": "The Humble Programmer"
+      }
+    ]
+  },
+  {
+    "id": "demo-bengio",
+    "name": "Yoshua Bengio",
+    "biography": {
+      "zh": "计算机科学家，研究机器学习、神经网络与表征学习。",
+      "en": "Computer scientist working on machine learning, neural networks, and representation learning."
+    },
+    "sources": [
+      "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "结合概率建模、计算复杂度分析与语料实验。"
+          ],
+          "en": [
+            "Combines probabilistic modeling, computational analysis, and corpus experiments."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "bengio-work",
+        "titleZh": "神经概率语言模型",
+        "titleEn": "A Neural Probabilistic Language Model",
+        "sourceUrl": "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
+        "summary": {
+          "zh": "合著论文，介绍用分布式词向量建立概率语言模型。",
+          "en": "Coauthored paper introducing a probabilistic language model based on distributed word representations."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-bengio-1176-section 1, block 1",
+        "text": "A goal of statistical language modeling is to learn the joint probability function of sequences of words in a language.",
+        "titleZh": "神经概率语言模型",
+        "titleEn": "A Neural Probabilistic Language Model"
+      }
+    ]
+  },
+  {
+    "id": "demo-he",
+    "name": "Kaiming He",
+    "biography": {
+      "zh": "计算机科学家，研究计算机视觉、深度网络及视觉表征。",
+      "en": "Computer scientist whose work includes computer vision, deep networks, and visual representations."
+    },
+    "sources": [
+      "https://arxiv.org/abs/1512.03385"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "通过架构对照和消融实验检验模型设计。"
+          ],
+          "en": [
+            "Uses architectural comparisons and ablation experiments to test design choices."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "he-work",
+        "titleZh": "用于图像识别的深度残差学习",
+        "titleEn": "Deep Residual Learning for Image Recognition",
+        "sourceUrl": "https://arxiv.org/abs/1512.03385",
+        "summary": {
+          "zh": "合著论文，介绍残差学习及其在图像识别任务上的实验。",
+          "en": "Coauthored paper introducing residual learning and evaluating it on image recognition."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-he-070-page 1, column 1, block 1",
+        "text": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers—8× deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers.",
+        "titleZh": "用于图像识别的深度残差学习",
+        "titleEn": "Deep Residual Learning for Image Recognition"
+      }
+    ]
+  },
+  {
+    "id": "demo-li",
+    "name": "厉以宁",
+    "biography": {
+      "zh": "中国经济学家，研究市场化改革、企业制度与经济转型。",
+      "en": "Chinese economist whose work examined market reforms, enterprise institutions, and economic transition."
+    },
+    "sources": [
+      "http://theory.people.com.cn/n/2013/1202/c49154-23711876.html"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "结合制度区分、政策实践与案例讨论改革。"
+          ],
+          "en": [
+            "Discusses reforms through institutional distinctions, policy practice, and examples."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "li-work",
+        "titleZh": "谈谈产权改革的若干问题",
+        "titleEn": "On Property Rights Reform",
+        "sourceUrl": "http://theory.people.com.cn/n/2013/1202/c49154-23711876.html",
+        "summary": {
+          "zh": "讨论产权改革与城乡制度、土地确权和国有资本治理之间的关系。",
+          "en": "Discusses how property rights reform relates to rural and urban institutions, land rights, and state capital governance."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-li-011-p11",
+        "text": "当前我国推进新型城镇化，重点要考虑符合中国国情的城镇化。基于中国的国情，我们的新型城镇化应该是：老城区+新城区+新社区。",
+        "titleZh": "谈谈产权改革的若干问题",
+        "titleEn": "On Property Rights Reform"
+      }
+    ]
+  },
+  {
+    "id": "demo-feng",
+    "name": "冯友兰",
+    "biography": {
+      "zh": "中国哲学家与哲学史家，著有《中国哲学史》。",
+      "en": "Chinese philosopher and historian of philosophy, author of A History of Chinese Philosophy."
+    },
+    "sources": [
+      "https://www.aisixiang.com/data/127834.html"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "结合文献考证、哲学义理分析与社会历史背景。"
+          ],
+          "en": [
+            "Combines textual scholarship, philosophical analysis, and social history."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "feng-work",
+        "titleZh": "二三十年代我的哲学发展历程",
+        "titleEn": "My Philosophical Development in the 1920s and 1930s",
+        "sourceUrl": "https://www.aisixiang.com/data/127834.html",
+        "summary": {
+          "zh": "回顾二十世纪二三十年代的哲学研究经历以及中国哲学史的写作。",
+          "en": "Reflects on philosophical work in the 1920s and 1930s and the writing of a history of Chinese philosophy."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-feng-013-p2",
+        "text": "我开始读书的时候，正是清朝末年的维新派\"变法\"的时候。初期的变法，废止八股文和试帖诗，代之以策论。其实，所谓策论，不过是一种变相的八股文。无论如何，我总算是免于学习作传统的八股文，开始读一些从西洋的报刊上翻译过来的文章，学了一点当时所谓新学或西学。学的目的还是\"学而优则仕\"。",
+        "titleZh": "二三十年代我的哲学发展历程",
+        "titleEn": "My Philosophical Development in the 1920s and 1930s"
+      }
+    ]
+  },
+  {
+    "id": "demo-wang",
+    "name": "王阳明",
+    "biography": {
+      "zh": "明代思想家，以知行合一和致良知等论述著称。",
+      "en": "Ming dynasty thinker known for the unity of knowledge and action and for his account of innate knowing."
+    },
+    "sources": [
+      "https://zh.wikisource.org/zh-hant/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%AD"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "借答问、经典诠释和日常事例辨析为学工夫。"
+          ],
+          "en": [
+            "Clarifies moral practice through replies, readings of the classics, and everyday examples."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "wang-work",
+        "titleZh": "《传习录》卷中",
+        "titleEn": "Instructions for Practical Living, Volume II",
+        "sourceUrl": "https://zh.wikisource.org/zh-hant/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%AD",
+        "summary": {
+          "zh": "收录多篇答书，讨论格物、良知和如何在日常事务中用功。",
+          "en": "Collects letters discussing the investigation of things, innate knowing, and moral practice in daily life."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-wang-017-§130, node 8",
+        "text": "吾子洞見時弊如此矣。亦將何以救之乎？然則鄙人之心，吾子固已一句道盡，復何言哉？復何言哉？若「誠意」之說，自是聖門教人用功第一義。但近世學者乃作第二義看，故稍與提掇緊要出來，非鄙人所能特倡也。",
+        "titleZh": "《传习录》卷中",
+        "titleEn": "Instructions for Practical Living, Volume II"
+      }
+    ]
+  },
+  {
+    "id": "demo-luxun",
+    "name": "鲁迅",
+    "biography": {
+      "zh": "中国现代作家，创作小说、散文和杂文。",
+      "en": "Modern Chinese writer of fiction, essays, and polemical prose."
+    },
+    "sources": [
+      "https://zh.wikisource.org/zh-hant/%E6%95%85%E9%84%89"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "以有限视角、反讽和具体细节组织叙述。"
+          ],
+          "en": [
+            "Uses limited perspective, irony, and concrete detail to organize narration."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "luxun-work",
+        "titleZh": "《故乡》",
+        "titleEn": "My Old Home",
+        "sourceUrl": "https://zh.wikisource.org/zh-hant/%E6%95%85%E9%84%89",
+        "summary": {
+          "zh": "通过一次返乡及与旧友的重逢，写故乡、记忆和社会关系的变化。",
+          "en": "Uses a homecoming and a reunion with an old friend to examine changes in memory and social relationships."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-luxun-007-p4",
+        "text": "時候既然是深冬；漸近故鄕時，天氣又陰晦了，冷風吹進船艙中，嗚嗚的響，從篷隙向外一望，蒼黃的天底下，遠近橫着幾個蕭索的荒村，沒有一些活氣。我的心禁不住悲涼起來了。",
+        "titleZh": "《故乡》",
+        "titleEn": "My Old Home"
+      }
+    ]
+  },
+  {
+    "id": "demo-cao",
+    "name": "曹雪芹",
+    "biography": {
+      "zh": "清代小说家，通常被认为是《红楼梦》前八十回的主要作者。",
+      "en": "Qing dynasty novelist commonly credited as the principal author of the first eighty chapters of Dream of the Red Chamber."
+    },
+    "sources": [
+      "https://zh.wikisource.org/wiki/紅樓夢"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "借日常仪节、对话和物件刻画人物及家族关系。"
+          ],
+          "en": [
+            "Uses etiquette, dialogue, and material details to depict characters and family relations."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "cao-work",
+        "titleZh": "《红楼梦》",
+        "titleEn": "Dream of the Red Chamber",
+        "sourceUrl": "https://zh.wikisource.org/wiki/紅樓夢",
+        "summary": {
+          "zh": "以贾府及其姻亲为中心，描写家族生活和人物命运。题库取前六回。",
+          "en": "Depicts family life and individual destinies around the Jia household. The tasks use the first six chapters."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-cao-001-p2",
+        "text": "自又云：今風塵碌碌，一事無成，忽念及當日所有之女子，一一細推了去，覺其行止見識，皆出於我之上。",
+        "titleZh": "《红楼梦》",
+        "titleEn": "Dream of the Red Chamber"
+      }
+    ]
+  },
+  {
+    "id": "demo-shakespeare",
+    "name": "William Shakespeare",
+    "biography": {
+      "zh": "英国剧作家与诗人，写作包括历史剧、喜剧和悲剧。",
+      "en": "English playwright and poet whose work includes histories, comedies, and tragedies."
+    },
+    "sources": [
+      "https://raw.githubusercontent.com/GITenberg/The-Complete-Works-of-William-Shakespeare_100/master/100.txt"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "在对白中使用诗体与散文，并通过人物对话推进冲突。"
+          ],
+          "en": [
+            "Uses verse and prose in dialogue, developing conflict through exchanges between characters."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "shakespeare-work",
+        "titleZh": "莎士比亚全集",
+        "titleEn": "Complete Works of William Shakespeare",
+        "sourceUrl": "https://raw.githubusercontent.com/GITenberg/The-Complete-Works-of-William-Shakespeare_100/master/100.txt",
+        "summary": {
+          "zh": "题库选段来自多部剧作的台词与场景。",
+          "en": "The tasks draw on dialogue and scenes from several plays."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-shakespeare-556-section 1, block 3",
+        "text": "In delivering my son from me, I bury a second husband.",
+        "titleZh": "莎士比亚全集",
+        "titleEn": "Complete Works of William Shakespeare"
+      }
+    ]
+  },
+  {
+    "id": "demo-austen",
+    "name": "Jane Austen",
+    "biography": {
+      "zh": "英国小说家，笔下常见家庭、婚姻与社会地位之间的关系。",
+      "en": "English novelist whose fiction often explores relationships among family, marriage, and social position."
+    },
+    "sources": [
+      "https://raw.githubusercontent.com/GITenberg/Pride-and-Prejudice_1342/master/1342-0.txt"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "借谈话、讽刺和人物视角揭示判断与社会习俗之间的张力。"
+          ],
+          "en": [
+            "Uses conversation, irony, and character perspective to reveal tensions between judgment and social convention."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "austen-work",
+        "titleZh": "傲慢与偏见",
+        "titleEn": "Pride and Prejudice",
+        "sourceUrl": "https://raw.githubusercontent.com/GITenberg/Pride-and-Prejudice_1342/master/1342-0.txt",
+        "summary": {
+          "zh": "围绕班纳特一家及伊丽莎白与达西的相识，刻画见解如何随交往而改变。",
+          "en": "Follows the Bennet family and the changing judgments of Elizabeth and Darcy as they come to know one another."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-austen-128-section 1, block 1",
+        "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+        "titleZh": "傲慢与偏见",
+        "titleEn": "Pride and Prejudice"
+      }
+    ]
+  },
+  {
+    "id": "demo-tolstoy",
+    "name": "Leo Tolstoy",
+    "biography": {
+      "zh": "俄国小说家，作品涉及家庭生活、历史变动和道德选择。",
+      "en": "Russian novelist whose work explores family life, historical change, and moral choice."
+    },
+    "sources": [
+      "https://raw.githubusercontent.com/GITenberg/War-and-Peace_2600/master/2600-0.txt"
+    ],
+    "persona": [
+      {
+        "key": "argumentation",
+        "summary": {
+          "zh": [
+            "在历史议论、群体场景和人物日常经验之间转换。"
+          ],
+          "en": [
+            "Moves among historical argument, collective scenes, and characters’ everyday experiences."
+          ]
+        }
+      }
+    ],
+    "works": [
+      {
+        "id": "tolstoy-work",
+        "titleZh": "战争与和平",
+        "titleEn": "War and Peace",
+        "sourceUrl": "https://raw.githubusercontent.com/GITenberg/War-and-Peace_2600/master/2600-0.txt",
+        "summary": {
+          "zh": "小说交织家庭叙事与拿破仑战争。题库采用 Maude 英译本。",
+          "en": "The novel interweaves family narratives with the Napoleonic Wars. The tasks use the Maudes’ English translation."
+        }
+      }
+    ],
+    "examples": [
+      {
+        "sourceId": "source-tolstoy-191-section 382, block 1",
+        "text": "“Well, Prince, so Genoa and Lucca are now just family estates of the Buonapartes.",
+        "titleZh": "战争与和平",
+        "titleEn": "War and Peace"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+.corpus-exchange {
+  display: grid;
+  gap: .85rem;
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  border: 1px solid #dbe3d7;
+  border-radius: 1rem;
+  background: #fbfcf8;
+}
+.corpus-exchange h2 { margin: 0 0 .35rem; font-size: 1.2rem; }
+.corpus-exchange h3 { margin: .85rem 0 .35rem; font-size: .95rem; }
+.corpus-exchange p { margin: 0; line-height: 1.55; }
+.corpus-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .65rem; }
+.corpus-controls input { max-width: 100%; }
+.corpus-exchange summary { cursor: pointer; font-weight: 600; }
+.corpus-exchange details p { margin: .5rem 0; }
+.corpus-exchange pre {
+  padding: .6rem .75rem;
+  border-radius: .4rem;
+  background: #edf2e8;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  font-size: .82rem;
+}

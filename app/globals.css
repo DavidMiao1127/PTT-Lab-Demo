@@ -1,0 +1,16 @@
+@import "./design.css";
+@import "./admin.css";
+@import "./study.css";
+@import "./language.css";
+
+@import "./round.css";
+
+@import "./reading.css";
+
+.demo-link {
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  white-space: nowrap;
+}
+.header-right .demo-link { margin-inline: .55rem; font-size: .78rem; }
+.corpus-controls input[type=file] { width: auto; margin: 0; }

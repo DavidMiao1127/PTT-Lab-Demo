@@ -1,0 +1,47 @@
+[
+  {
+    "id": "demo-sentence-01",
+    "item_id": "demo-sentence-01",
+    "author": "Bertrand Russell",
+    "domain": "philosophy",
+    "level": "sentence",
+    "task": "",
+    "context_before": "Is there any knowledge in the world which is so certain that no reasonable man could doubt it? ",
+    "context_after": " When we have realized the obstacles in the way of a straightforward and confident answer, we shall be well launched on the study of philosophy--for philosophy is merely the attempt to answer such ultimate questions, not carelessly and dogmatically, as we do in ordinary life and even in the sciences, but critically, after exploring all that makes such questions puzzling, and after realizing all the vagueness and confusion that underlie our ordinary ideas.",
+    "a": "This question, which at first sight might not seem difficult, is really one of the most difficult that can be asked.",
+    "b": "The question initially appears straightforward, yet it asks whether any belief can withstand reasonable doubt.",
+    "real": "A",
+    "baseline": "Demo",
+    "source_url": "https://www.gutenberg.org/ebooks/5827"
+  },
+  {
+    "id": "demo-paragraph-01",
+    "item_id": "demo-paragraph-01",
+    "author": "Bertrand Russell",
+    "domain": "philosophy",
+    "level": "paragraph",
+    "task": "",
+    "context_before": "In this chapter we have to ask ourselves whether, in any sense at all, there is such a thing as matter. Is there a table which has a certain intrinsic nature, and continues to exist when I am not looking, or is the table merely a product of my imagination, a dream-table in a very prolonged dream? This question is of the greatest importance. For if we cannot be sure of the independent existence of objects, we cannot be sure of the independent existence of other people's bodies, and therefore still less of other people's minds, since we have no grounds for believing in their minds except such as are derived from observing their bodies. Thus if we cannot be sure of the independent existence of objects, we shall be left alone in a desert--it may be that the whole outer world is nothing but a dream, and that we alone exist. This is an uncomfortable possibility; but although it cannot be strictly proved to be false, there is not the slightest reason to suppose that it is true. In this chapter we have to see why this is the case.\n\n",
+    "context_after": "\n\nDescartes (1596-1650), the founder of modern philosophy, invented a method which may still be used with profit--the method of systematic doubt. He determined that he would believe nothing which he did not see quite clearly and distinctly to be true. Whatever he could bring himself to doubt, he would doubt, until he saw reason for not doubting it. By applying this method he gradually became convinced that the only existence of which he could be quite certain was his own. He imagined a deceitful demon, who presented unreal things to his senses in a perpetual phantasmagoria; it might be very improbable that such a demon existed, but still it was possible, and therefore doubt concerning things perceived by the senses was possible.",
+    "a": "Before we embark upon doubtful matters, let us try to find some more or less fixed point from which to start. Although we are doubting the physical existence of the table, we are not doubting the existence of the sense-data which made us think there was a table; we are not doubting that, while we look, a certain colour and shape appear to us, and while we press, a certain sensation of hardness is experienced by us. All this, which is psychological, we are not calling in question. In fact, whatever else may be doubtful, some at least of our immediate experiences seem absolutely certain.",
+    "b": "We may begin by distinguishing the appearance of the table from the object whose existence is in doubt. Its colour is present to sight and its resistance is present to touch, even if neither experience proves that an independent table is there. Our question is what warrants the move from those experiences to a persistent object.",
+    "real": "A",
+    "baseline": "Demo",
+    "source_url": "https://www.gutenberg.org/ebooks/5827"
+  },
+  {
+    "id": "demo-passage-01",
+    "item_id": "demo-passage-01",
+    "author": "Bertrand Russell",
+    "domain": "philosophy",
+    "level": "passage",
+    "task": "In English, explain why recurring experiences of a table might lead one to believe in an object independent of perception. Distinguish what is experienced from what is inferred, and pose the further question that follows.",
+    "context_before": "",
+    "context_after": "",
+    "a": "In the preceding chapter we agreed, though without being able to find demonstrative reasons, that it is rational to believe that our sense-data--for example, those which we regard as associated with my table--are really signs of the existence of something independent of us and our perceptions. That is to say, over and above the sensations of colour, hardness, noise, and so on, which make up the appearance of the table to me, I assume that there is something else, of which these things are appearances. The colour ceases to exist if I shut my eyes, the sensation of hardness ceases to exist if I remove my arm from contact with the table, the sound ceases to exist if I cease to rap the table with my knuckles. But I do not believe that when all these things cease the table ceases. On the contrary, I believe that it is because the table exists continuously that all these sense-data will reappear when I open my eyes, replace my arm, and begin again to rap with my knuckles. The question we have to consider in this chapter is: What is the nature of this real table, which persists independently of my perception of it?",
+    "b": "Suppose I stand before a table. In looking at it I receive a colour, and in laying my hand upon it I feel a resistance. The colour is absent when I turn away, and the resistance when I withdraw my hand. If the table itself were only these separate experiences, the intervals in which I have neither would be difficult to explain. It is simpler to suppose that there is an object which remains and which, under appropriate conditions, gives rise to such experiences. This is not a demonstration of its independent existence. It does, however, leave us with a further question: what account can we give of the object, considered apart from the ways in which it appears to us?",
+    "real": "A",
+    "baseline": "Demo",
+    "source_url": "https://www.gutenberg.org/ebooks/5827"
+  }
+]

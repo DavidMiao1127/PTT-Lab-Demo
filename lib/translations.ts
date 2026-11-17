@@ -54,9 +54,14 @@ AI是否能模仿特定的人？|Can AI imitate a specific person?
 选择你认为是真实学者写的文段。|Choose the passage you think was written by the real scholar.
 配置本轮标注|Configure this round
 标注邀请码|Annotation invitation code
-领域|Field
+领域|Domain
 学者（可多选）|Scholars (select one or more)
 角色|Role
+资料展示|Information exposure
+请选择资料展示方式|Select information exposure
+不提供额外信息|No additional information
+基础资料|Basic profile
+全面资料|Comprehensive profile
 请选择角色|Select a role
 普通人|General participant
 有专业背景-提供基础信息|Professional background - basic information

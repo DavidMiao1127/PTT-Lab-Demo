@@ -9,3 +9,5 @@
 /* Show each replacement in its original location within the full text. */
 .infill-candidates .passage{max-height:430px;font-size:14px;line-height:1.85;scroll-behavior:auto}.filled-text{font-weight:750;color:#263f31}.passage-candidates .passage{font-size:14px;line-height:1.8;padding:19px 0}.infill-candidates{background:transparent;border:0;padding:0;gap:18px}.infill-candidates .text-card{border-color:#ccd9c1}.infill-candidates .filled-text{background:#f0f4e6;border-radius:2px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 @media(max-width:600px){.infill-candidates .passage{max-height:400px}.passage-candidates .passage{font-size:14px;line-height:1.85}}
+
+@media(min-width:701px){.setup-content .card-footer{justify-content:flex-end}}
